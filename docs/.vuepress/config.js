@@ -1,14 +1,16 @@
 module.exports = {
-  title: 'VuePress Starter Kit',
-  description: 'This is your page description.',
+  title: 'OfficeLife Documentation',
+  description: 'Everything you need to know how your company is doing.',
   themeConfig: {
     logo: '/vuepress-logo.png',
     lastUpdated: 'Last updated',
-    repo: 'https://github.com/bencodezen/vuepress-starter-kit',
+    repo: 'officelifehq/docs',
+    docsDir: 'docs',
+    docsBranch: 'main',
     // docsDir: 'docs',
     editLinks: true,
     sidebarDepth: 3,
-    editLinkText: 'Recommend a change',
+    editLinkText: 'Found a typo? An error? Edit this page',
     nav: [
       {
         text: 'Home',

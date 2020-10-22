@@ -76,7 +76,7 @@ Running this command will wipe your database entirely in order to set up a new s
 
 When you run the command, here is what you should expect to see:
 
-![Dump of the setup dummy account process](./installation-dummy.png)
+![Dump of the setup dummy account process](./img/installation-dummy.png)
 
 Depending on your database and hardware, it can take up to 5 minutes for the script to run.
 

@@ -1,27 +1,23 @@
 # Documentation for OfficeLife
 
-This repository is the official documentation of [OfficeLife](https://github.com/djaiss/officelife), a tool used to take the pulse of your company and empower managers to take care of their employees.
+This repository is the official documentation of [OfficeLife](https://github.com/djaiss/officelife), a tool used to take the pulse of your company.
 
-This documentation is powered by [Jigsaw](https://jigsaw.tighten.co/docs), a PHP static site generator.
+This documentation is powered by [VuePress](https://vuepress.vuejs.org/), a static site generator based on Vue.
 
-## How to use
-
-As Jigsaw generates static sites, we need to compile the content before being able to read it.
+## Installation
 
 ```bash
-./vendor/bin/jigsaw build
+git clone git@github.com:officelifehq/docs.git
+cd docs
+yarn
 ```
 
-We also need to compile the assets if you’ve changed them.
+## How to use locally
+
+As VuePress generates static sites, we need to compile the content before being able to read it.
 
 ```bash
-npm run dev
-```
-
-To serve the site locally, you have to run
-
-```bash
-./vendor/bin/jigsaw serve
+yarn serve
 ```
 
 ## Deployment
