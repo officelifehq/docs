@@ -1,8 +1,12 @@
+---
+sidebarDepth: 1
+---
+
 # Getting started
 
 ## What is OfficeLife
 
-If a company wants to have a complete 360 view of what’s happening inside its walls, it needs to buy and configure a lot of tools. There is a tool for every specific aspect of a company: HR, project management, team management, 1 on 1 management… But there isn't any software that combine all of them together in a simple way.
+If a company wants to have a complete 360 view of what’s happening inside its walls, it needs to buy and configure a lot of tools. There is a tool for every specific aspect of a company: HR, project management, time tracking, holidays and time offs, team management, One on Ones,... There isn't a software available today, that combine all of them together in a simple way.
 
 Not only buying and configuring all those software is a time-consuming process, but it also costs a lot of money - especially for smaller companies with a limited budget. Moreover, most of the SAAS out there have a let's-call-us-and-talk-for-an-hour-before-you-can-see-what-the-pricing-will-look-like-for-you policy, which most people hate and that we refuse to follow.
 
@@ -22,12 +26,7 @@ All those answers come from knowing your employees well.
 
 Good luck finding a tool that addresses all those points. Some tools do some part of these, but they are also hard to use, hard to configure and not user friendly.
 
-OfficeLife has been created to know everything about your company. Its main goals are to:
-
-* give an overview of how employees and managers feel right now,
-* help managers be more empathetic,
-* help companies be better at managing people's dreams and ambitions,
-* help employees better communicate with their employers.
+OfficeLife has been created so everyone, from the employee to the CEO, know everything about the company.
 
 ## Domains covered by the product
 
@@ -50,7 +49,7 @@ OfficeLife is structured around 5 **domains**. Each domain represents a step in 
 
 ### Manage
 
-* Employee management system
+* Employee management
 * Team management
 * Company management
 
@@ -103,6 +102,27 @@ In terms of user experience, the software aims to be simple to use with the mini
 
 ### Open source
 
-Finally and this is what differentiates us the most, OfficeLife is completely open source and can be installed on your server if you so desire, for free and without any fees. OfficeLife is built with open source technologies, and we want to give back to the community by providing the software for free for those who need it.
+Finally and this is what differentiates us the most, OfficeLife is completely open source (more on that below) and can be installed on your server if you so desire, for free and without any fees. OfficeLife is built with open source technologies, and we want to give back to the community by providing the software for free for those who need it.
 
-Open source means anyone can look at how we treat our user's data.
+## Pricing
+
+### Flavors
+
+OfficeLife comes in two flavors: open source and hosted.
+
+* The open-source version is the one you will find [on GitHub](https://github.com/officelifehq/OfficeLife). The code is released with the BSD-3 license, which means you can do whatever you want with it as long as you don't try to make money out of the software yourself. You can download the tool for free, whenever you want, and have complete control over everything. You don't need a product key for this. However, you are responsible for your hosting, maintenance, and upgrade of your instance.
+* The hosted version, which can be found on https://officelife.io, is the exact same version as the open-source one. As a matter of fact, the code that we deploy in production comes from the repository hosted on Github. We take care of maintaining this instance, of upgrading it and making backups of your data multiple times a day.
+
+### Pricing
+
+While the open-source version is free, the hosted version is supported by subscriptions. You pay a fair amount of money each month, and in exchange, you have access to your own OfficeLife’s account. The price is fixed, USD 100 per month (or USD 1000 per year — a good discount!), no matter the number of employees, users or company size. We don't like those other services that charge a small amount of money per user, like $2 per user – you think it’s cheap, but if your company has 200 employees, you end up with USD 400 to pay each month, which is insane.
+
+Also, we don't have any hidden fees. You can upgrade or downgrade at any time.
+
+### Isn’t this price too expensive for my tiny company?
+
+Perhaps. And I’m sorry about this. However, if the price is too expensive for you, which we completely understand, you can still download the open-source version on Github and install it on your server (on Linode, Digital Ocean or Heroku). It’s cheaper, safer in terms of privacy, and you'll deal with the maintenance yourself 😀
+
+### Why is this not more expensive?
+
+We are a small team. We don’t have a fancy office in San Francisco. In fact, we don’t have an office at all. We keep expenses to a minimum and all the money is reinvested in the company (and small salaries for team members). What we want is growing slowly and living the dream of being independent and free.

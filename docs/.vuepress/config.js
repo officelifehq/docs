@@ -7,6 +7,7 @@ module.exports = {
     repo: 'https://github.com/bencodezen/vuepress-starter-kit',
     // docsDir: 'docs',
     editLinks: true,
+    sidebarDepth: 3,
     editLinkText: 'Recommend a change',
     nav: [
       {
@@ -17,19 +18,19 @@ module.exports = {
         text: 'Documentation',
         items: [
           {
-            text: 'Getting started',
+            text: 'Introduction',
             items: [
               {
-                text: 'What is OfficeLife',
+                text: 'Getting started',
                 link: '/documentation/introduction'
               },
               {
-                text: 'What’s new',
-                link: '/section/#some-more-content'
+                text: 'Installation',
+                link: '/documentation/installation'
               },
               {
-                text: 'Release note',
-                link: '/section/#some-more-content'
+                text: 'Core concepts',
+                link: '/documentation/core-concepts'
               },
             ],
           },
@@ -61,37 +62,8 @@ module.exports = {
         ]
       },
       {
-        text: 'Contributing guide',
-        items: [
-          {
-            text: 'New to OfficeLife?',
-            link: '/section/#section-introduction'
-          },
-          {
-            text: 'What’s new',
-            link: '/section/#some-more-content'
-          },
-          {
-            text: 'Recruit',
-            link: '/section/#some-more-content'
-          },
-          {
-            text: 'Manage',
-            link: '/section/#some-more-content'
-          },
-          {
-            text: 'Operate',
-            link: '/section/#some-more-content'
-          },
-          {
-            text: 'Communicate',
-            link: '/section/#some-more-content'
-          },
-          {
-            text: 'Grow',
-            link: '/section/#some-more-content'
-          }
-        ]
+        text: 'Contribute',
+        link: '/contribution'
       },
       {
         text: 'Links',
@@ -112,30 +84,32 @@ module.exports = {
       },
     ],
     sidebar: {
-      '/documentation/': getDocumentationSidebar('Guide', 'Advanced'),
+      '/documentation/': getDocumentationSidebar(),
     },
-    plugins: ['@vuepress/active-header-links']
+    plugins: [
+      '@vuepress/active-header-links',
+      '@vuepress/medium-zoom'
+    ]
   }
 }
 
-function getDocumentationSidebar(groupA, groupB) {
+function getDocumentationSidebar() {
   return [
     {
-      title: groupA,
+      title: 'Setup',
       collapsable: false,
       children: [
         'introduction',
         'installation',
+        'core-concepts',
       ]
     },
     {
-      title: groupB,
+      title: '👩‍🏫 Manage',
       collapsable: false,
       children: [
-        'frontmatter',
-        'permalinks',
-        'markdown-slot',
-        'global-computed'
+        ['manage/overview', 'Overview'],
+        ['manage/employee-management', 'Employee management']
       ]
     }
   ]

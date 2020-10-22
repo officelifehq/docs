@@ -1,7 +1,7 @@
 {
-  "name": "vuepress-starter-kit",
+  "name": "OfficeLife",
   "version": "1.0.0",
-  "description": "A sample project to let you see what makes VuePress so great! ",
+  "description": "All the documentation used by OfficeLife",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bencodezen/vuepress-starter-kit.git"
+    "url": "git+https://github.com/officelifehq/officelife-documentation.git"
   },
   "keywords": [
     "vuejs",
@@ -18,17 +18,18 @@
     "documentation",
     "static-site-gen"
   ],
-  "author": "Ben Hong <bencodezen@gmail.com>",
+  "author": "Regis Freyd <regis@officelife.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bencodezen/vuepress-starter-kit/issues"
+    "url": "https://github.com/officelifehq/officelife-documentation/issues"
   },
-  "homepage": "https://github.com/bencodezen/vuepress-starter-kit#readme",
+  "homepage": "https://github.com/officelifehq/officelife-documentation#readme",
   "dependencies": {
     "global": "^4.3.2",
     "vuepress": "^1.2.0"
   },
   "devDependencies": {
-    "@vuepress/plugin-active-header-links": "^1.0.0-rc.1"
+    "@vuepress/plugin-active-header-links": "^1.0.0-rc.1",
+    "@vuepress/plugin-medium-zoom": "^1.7.1"
   }
 }

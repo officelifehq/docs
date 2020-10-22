@@ -1,10 +1,17 @@
 # Installation
 
+## Which version of OfficeLife should you use
+
+OfficeLife comes in two flavors:
+
+* as a SAAS, meaning that you need to pay a monthly fee to access the service, on an instance that we host ourselves. We take care of everything, from maintenance to upgrading the instance,
+* as a software that you can download and install yourself. You will have to maintain this instance yourself. But it’s free 😀 Below are all the steps you need to follow to install an instance of OfficeLife yourself.
+
+## Requirements for self-hosting
+
 ::: warning
 This page requires a deep technical knowledge to understand it. If you are unsure on how to install OfficeLife, either ask a developer on your team, or [sign up on for an account](https://officelife.io) on an instance that we, the OfficeLife team, offer.
 :::
-
-## Requirements for self-hosting
 
 OfficeLife is a Laravel-based application and requires the following technologies to run efficiently.
 
@@ -25,13 +32,33 @@ OfficeLife is a Laravel-based application and requires the following technologie
 
 We recommend [Forge](https://forge.laravel.com) or [Ploi](https://ploi.io/) to provision the servers needed to run OfficeLife. You can also use our official Docker image if you prefer.
 
-## Configuration
+### Configuration
 
 You should configure your web server's document / web root to be the `public` directory. The `index.php` in this directory serves as the front controller for all HTTP requests entering your application.
 
-## Directory permissions
+### Directory permissions
 
 You may need to configure some permissions. Directories within the `storage` and the `bootstrap/cache` directories should be writable by your web server or OfficeLife will not run.
+
+## Installation on Heroku
+
+Officelife can be deployed on Heroku using the button below:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/officelifehq/officelife/tree/main)
+
+Before deployment, Heroku will ask you to enter a custom `APP_KEY` when asked (for instance you can use this command to generate the key: `echo -n 'base64:'; openssl rand -base64 32`).
+
+After deployment, click on the `Manage app` button to open the dashboard of your new application, as shown below.
+
+![Heroku Dashbord](./img/heroku_dashboard.png)
+
+Click on `Heroku Scheduler` to open the scheduler dashboard. Create a new job, and define a new job to run this command every 10 minutes or every hour at 00 minutes:
+
+```sh
+php artisan schedule:run
+```
+
+You are now able to open the application and register a new user.
 
 ## Populate account with fake data
 
