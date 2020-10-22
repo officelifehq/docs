@@ -22,18 +22,10 @@ yarn serve
 
 ## Deployment
 
-Before deploying the site to production, we need to compile the assets in a certain way.
-
-```bash
-npm run production
-```
+To deploy, there a simple step: accept the PR, merge it to `main` and it will be auto-deployed within minutes to Netlify.
 
 ### Netlify
 
 This documentation is hosted on [Netlify](https://app.netlify.com/sites/officelifedocumentation/overview). The page is automatically build after each commit in the Github repository. Also, for each commit, the documentation is generated automatically by Github Action and pushed back to the commit, so you don't have to think of it before creating and pushing your PR.
 
 Netlify takes care of minifying all assets upon deployment.
-
-## Adding content
-
-New content should be added to the `navigation.php` file.
