@@ -113,6 +113,13 @@ function getDocumentationSidebar() {
         ['manage/overview', 'Overview'],
         ['manage/employee-management', 'Employee management']
       ]
+    },
+    {
+      title: '🤖 Operate',
+      collapsable: false,
+      children: [
+        ['operate/project-management', 'Project management']
+      ]
     }
   ]
 }
