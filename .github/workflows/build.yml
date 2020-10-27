@@ -21,6 +21,9 @@ jobs:
     name: Build
 
     steps:
+      - name: Checkout sources
+        uses: actions/checkout@v2
+
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"
@@ -32,6 +35,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
             ${{ runner.os }}-yarn-
+
       - name: Install
         run: yarn install
       - name: Build
