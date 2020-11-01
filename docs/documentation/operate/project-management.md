@@ -139,3 +139,38 @@ Sometimes you need to delete a decision. To do so, simply use the menu next to e
 ![](./img/project-decisions-delete.png)
 
 Anyone in the company can delete a decision.
+
+## Project messages
+
+### Overview
+
+In the life of a project, there are decisions and tasks. But sometimes, you need to write things down to have a longer discussion that wouldn't fit in a task. Or you need to brainstorm. Or make an announcement. Or talk about any other topic.
+
+This is where messages shine. It allows anyone in the company to create a message for everyone in the company to see (in the context of the project).
+
+### List of messages
+
+The Messages tab in a project shows all the messages in the project. The list keeps track of which messages you, as a user, have read or not.
+
+![](./img/project-messages-index.png)
+
+### Creating a message
+
+Creating a message is not restricted to members of the project. Why? Because sometimes, in a company, people from outside a project still want to be able to participe in a project without being officially in the project.
+
+To create a message, only two fields are mandatory:
+
+* the title of the message,
+* its content.
+
+![](./img/project-messages-create.png)
+
+Everyone in the company, and therefore the project, will be able to read this message once it’s created.
+
+### Updating or deleting a message
+
+To update or delete a message, use the options located in the bottom right corner when viewing a specific message.
+
+![](./img/project-messages-delete.png)
+
+Anyone in the company can update or delete a message.
