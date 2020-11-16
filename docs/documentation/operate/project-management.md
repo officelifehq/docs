@@ -174,3 +174,31 @@ To update or delete a message, use the options located in the bottom right corne
 ![](./img/project-messages-delete.png)
 
 Anyone in the company can update or delete a message.
+
+## Project tasks
+
+### Overview
+
+Tasks are the central part of any project. This is how we know a project is moving forward. OfficeLife lets you easily manage tasks and assign them to project members, so projects are actually done.
+
+A task can be part of a task list, or it can live outside of a list. It's easier to make it part of a list, though, so you can track progress towards a goal.
+
+A task can also be assigned to someone. This lets people easily know who's responsible of what.
+
+### List of tasks
+
+The list of tasks shows the complete lists and tasks in the project.
+
+### Creating a task and a task list
+
+By default, there are no lists in the project.
+
+![](./img/project-tasks-blank.png)
+
+You can create lists in the project, or create simple tasks without lists.
+
+![](./img/project-tasks-create.png)
+
+### Updating or deleting a task
+
+To update or delete a task, simply mouse-over the task, and click on the option you would like to do.
