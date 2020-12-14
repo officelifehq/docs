@@ -119,6 +119,7 @@ function getDocumentationSidebar() {
       collapsable: false,
       children: [
         ['operate/project-management', 'Project management']
+        ['operate/time-tracking', 'Time tracking']
       ]
     }
   ]
