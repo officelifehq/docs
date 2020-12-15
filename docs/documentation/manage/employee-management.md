@@ -1,4 +1,4 @@
-# Employee management
+
 
 ## Overview
 
@@ -104,6 +104,65 @@ If this date is set in the future, that means the employee will soon join the co
 It’s interesting to know when a colleague has a work anniversary. It’s a date to celebrate. OfficeLife will warn employees when a work anniversary will occur in the upcoming week. This information is displayed on the team’s dashboard for everyone to see.
 
 ![](./img/employee_dashboard_team_work_anniversary.png)
+
+## Employee statuses
+
+### Overview
+
+In a company, employees can be consultant, part-time or full time employees. This status is what we call Employee Status in OfficeLife.
+
+OfficeLife will adapt to your company and doesn't assume that there should be any predefined statuses in the company when you setup your account.
+
+You can create as many statuses as needed to reflect your unique situation.
+
+While employee statuses are managed in Adminland, assigning a status to an employee is done on the Employee profile page itself. Everyone in the company can see this information, as this should public within the company.
+
+#### Internal vs external employees
+
+OfficeLife makes the difference between internal and external employees.
+
+* External employees aren’t part of your payroll. This means that instead of a payslip, you will probably be sharing an invoice receipt once a specific project or work duration is over.
+* External employees do not require operational expenses. They use their own resources to complete the said assignment, including electricity, internet connectivity, software subscriptions, and the like.
+* External employees are free to take up second or even third jobs.
+
+We use this notion inside OfficeLife for several purposes, like manage the renewal contract date of the consultants for instance.
+
+This internal/external status can be changed anytime.
+
+### Creating or updating an employee status
+
+Employee statuses are created in Adminland.
+
+To add an employee status, simply click on the Button at the top of the page, and fill in two important pieces of information:
+
+* the name of the status itself. This is internal to your company, so it’s really up to you,
+* whether employees who will be associated with this status are [internal or external employees](#internal-vs-external-employees).
+
+![](./img/employee_status_create.png)
+
+Once created, the status will be immediately available to be assigned to employees.
+
+When a status is udpated, the change will be immediately taken into account. If a status previously was used for external employees and is now used to manage internal employees instead, any information that was depending on the external status will be kept in the database - they simply won't be deleted, only not shown to the employees.
+
+::: tip Rules
+* Employees can have only one employee status at a time.
+* The name of the employee status is mandatory and limited to 255 characters.
+* By default, employee statuses are for internal employees.
+:::
+
+### Deleting an employee status
+
+Deleting an employee status is done in Adminland as well. Deletion takes effect immediately, so proceed with caution.
+
+### Assigning an employee status
+
+Assigning an employee status to an employee is done on the Employee profile page.
+
+![](./img/employee_status_assign.png)
+
+::: tip Rules
+* Only employees with the RH and administrator privilege have the right to assign a status to an employee.
+:::
 
 ## Work from home
 
