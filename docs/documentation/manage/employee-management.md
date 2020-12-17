@@ -164,6 +164,29 @@ Assigning an employee status to an employee is done on the Employee profile page
 * Only employees with the RH and administrator privilege have the right to assign a status to an employee.
 :::
 
+## Managing external employees
+
+### Overview
+
+External employees ([as defined here](#internal-vs-external-employees)) have some special information attached to them in OfficeLife.
+
+### Managing the contract renewal date
+
+External employees sign a contract with the company and this contract has a specific duration. This is what we call the contract renewal date. After this date, the contract ends. In some companies it’s really important to be notified of this date in advance.
+
+Once set, the contract renewal date will appear on the Employee profile, but only selected people will be able to see it: the employee himself, the manager of this employee and anyone with the HR or Administrator role. No one else in the company will be able to see this information.
+
+![](./img/employee_contract_renewal_date.png)
+
+OfficeLife lets you easily change this date on the Employee profile page, as shown below.
+
+![](./img/employee_contract_renewal_date_edit.png)
+
+::: tip Rules
+* This tab in the Edit employee profile page will only be shown if the employee is associated to a status with the External type.
+* Only employees with the HR and administrator role are allowed to edit this information.
+:::
+
 ## Work from home
 
 ### Overview
