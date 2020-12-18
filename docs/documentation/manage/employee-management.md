@@ -182,6 +182,8 @@ Once set, the contract renewal date will appear on the Employee profile, but onl
 * This information will only be shown if the employee is associated to a status with the External type.
 :::
 
+#### Editing the contract renewal date
+
 OfficeLife lets you easily change this date on the Employee profile page, as shown below.
 
 ![](./img/employee_contract_renewal_date_edit.png)
