@@ -197,7 +197,7 @@ OfficeLife lets you easily change this date on the Employee profile page, as sho
 
 When the contract renewal date is set, and that the contract will have to be renewed soon, OfficeLife will warn several persons in the company.
 
-First, it will inform the external employee himself, as this information will be put on the dashboard when the renewal date is 30 days or less away.
+First, it will inform the external employee himself, as this information will be put on the dashboard when the renewal date is 30 days (or less) away.
 
 ![](./img/employee_contract_renewal_date_dashboard_me.png)
 
