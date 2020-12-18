@@ -201,6 +201,10 @@ First, it will inform the external employee himself, as this information will be
 
 ![](./img/employee_contract_renewal_date_dashboard_me.png)
 
+Then, it will inform the manager(s) of this employee on their manager dashboard if, again, the renewal date is 30 days (or less) away.
+
+![](./img/employee_contract_renewal_date_dashboard_manager.png)
+
 ## Work from home
 
 ### Overview
