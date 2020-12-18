@@ -182,6 +182,8 @@ Once set, the contract renewal date will appear on the Employee profile, but onl
 * This information will only be shown if the employee is associated to a status with the External type.
 :::
 
+#### Editing the contract renewal date
+
 OfficeLife lets you easily change this date on the Employee profile page, as shown below.
 
 ![](./img/employee_contract_renewal_date_edit.png)
@@ -190,6 +192,14 @@ OfficeLife lets you easily change this date on the Employee profile page, as sho
 * This tab in the Edit employee profile page will only be shown if the employee is associated to a status with the External type.
 * Only employees with the HR and administrator role are allowed to edit this information.
 :::
+
+#### What happens when the contract renewal date is due
+
+When the contract renewal date is set, and that the contract will have to be renewed soon, OfficeLife will warn several persons in the company.
+
+First, it will inform the external employee himself, as this information will be put on the dashboard when the renewal date is 30 days or less away.
+
+![](./img/employee_contract_renewal_date_dashboard_me.png)
 
 ## Work from home
 
