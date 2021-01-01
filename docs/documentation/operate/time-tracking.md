@@ -12,7 +12,7 @@ Like everything we do in OfficeLife, we try to keep features as simple as possib
 
 Time tracking is about timesheets.
 
-A timesheet is a list of time tracking entries. An entry is a number of hours spent on something. Each time tracking entry can also be associated with a project if there is a need.
+A timesheet is a list of time tracking entries. An entry is a number of hours spent on something. Each time tracking entry must be associated to a specific task within a project. That means we need at least one project with at least one task to be able to use the time tracking feature.
 
 All employees in OfficeLife can use the time tracking feature, as it’s enabled by default on every company’s account.
 
@@ -28,7 +28,7 @@ Every week, employees must submit their timesheets. If an employee has a manager
 
 ### Privacy
 
-Like with every other features in OfficeLife, privacy has been taken into account with this feature. No regular employees can see someone else’s timesheets. Only employees with a specific right can read them:
+Like with every other features in OfficeLife, privacy has been taken into account when designing this feature. No regular employees can see someone else’s timesheets. Only employees with a specific right can read them:
 
 * the manager of the employee, if defined,
 * employees with HR or admin roles,
@@ -46,12 +46,54 @@ While an employee creates an entry on his dashboard, time tracking entries appea
 
 ## Creating a time tracking entry
 
-Creating a time tracking entry is always made on the employee dashboard, even if it’s about a project.
+There are several ways to log time in OfficeLife:
+
+* on the employee’s dashboard,
+* in a project.
+
+### Creating a time tracking entry on the employee’s dashboard
 
 To create an entry, an employee needs to enter:
 
 * a duration: the duration is written in hours and minutes. While OfficeLife will make sure that this duration doesn't exceed 24 hours, it won't limit employees otherwise.
-* a project: this field is not necessary, but if it is, this entry will be linked to the project.
-* an optional description. Not required, but can be used to give an additional context.
+* a project and a task: those fields are necessary.
+
+By default, a timesheet is empty, without any rows as shown below:
+
+![](./img/time-tracking-dashboard-blank.png)
+
+Using the button located on the upper right part of the screen, you can add a row in this timesheet. Each row represents a unique task, as shown below.
+
+![](./img/time-tracking-dashboard-add-project.png)
+
+You can add as many rows (ie. project tasks) as you want - but on a single timesheet, every task can only appear once, and will disappear from the list of available tasks when adding a new row if you choose this task.
+
+![](./img/time-tracking-dashboard-rows.png)
+
+If there are no projects that you (as an employee) are not part of, or if there are no projects in the company at all, you won't be able to add a row in your timesheets.
 
 OfficeLife will make sure that you can not enter more than 24 hours for all entries in a given day.
+
+## Submitting a timesheet
+
+When you are satisfied with your timesheet, you can simply submit the timesheet for validation, and the timesheet will be marked as `Waiting for approval`.
+
+![](./img/time-tracking-dashboard-waiting-for-approval.png)
+
+If you have a manager, he/she will be warned and will have to validate the timesheet after you’ve submitted it. If you don’t have a manager, someone in HR or with the accountant role will be able to validate the timesheet.
+
+## Approving/rejecting a timesheet
+
+### As a manager
+
+If you are a manager, you must approve or reject a timesheet before it’s available to the other departments (like the Accounting or HR departments). When you are a manager, you have access to a special tab on the dashboard, called `Manager area`.
+
+As soon as one of your direct report submits a timesheet, you will see them on this tab, as shown below.
+
+![](./img/time-tracking-manager-approvals.png)
+
+Each row in this table will disappear as soon as you take a decision to either approve or reject a timesheet.
+
+When there are no more timesheets to approve, OfficeLife will simply show a nice empty state.
+
+![](./img/time-tracking-manager-blank.png)

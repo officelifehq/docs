@@ -41,23 +41,23 @@ module.exports = {
             items: [
               {
                 text: 'Recruit',
-                link: '/section/#some-more-content'
+                link: '/section/'
               },
               {
                 text: 'Manage',
-                link: '/section/#some-more-content'
+                link: '/section/'
               },
               {
                 text: 'Operate',
-                link: '/section/#some-more-content'
+                link: '/section/'
               },
               {
                 text: 'Communicate',
-                link: '/section/#some-more-content'
+                link: '/section/'
               },
               {
                 text: 'Grow',
-                link: '/section/#some-more-content'
+                link: '/section/'
               }
             ]
           }
@@ -118,7 +118,7 @@ function getDocumentationSidebar() {
       title: '🤖 Operate',
       collapsable: false,
       children: [
-        ['operate/project-management', 'Project management']
+        ['operate/project-management', 'Project management'],
         ['operate/time-tracking', 'Time tracking']
       ]
     }
