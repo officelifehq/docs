@@ -100,6 +100,10 @@ The project lead is the person responsible for the project. It doesn't have any 
 
 This information is displayed on the Summary page of the project and is meant to provide the information of who is ultimately responsible for the project.
 
+## Deleting a project
+
+If you delete a project, all information associated with it will be deleted as well. This includes time tracking entries - so be sure of your decision of deleting the project before proceeding.
+
 ## Project decisions
 
 ### Overview
