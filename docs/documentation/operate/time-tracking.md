@@ -98,6 +98,8 @@ When there are no more timesheets to approve, OfficeLife will simply show a nice
 
 ![](./img/time-tracking-manager-blank.png)
 
+For now, it’s not possible for a manager to view past timesheets (s)he approved.
+
 ## Viewing past timesheets
 
 All the timesheets that were created by an employee are available to see.
