@@ -97,3 +97,15 @@ Each row in this table will disappear as soon as you take a decision to either a
 When there are no more timesheets to approve, OfficeLife will simply show a nice empty state.
 
 ![](./img/time-tracking-manager-blank.png)
+
+## Viewing past timesheets
+
+All the timesheets that were created by an employee are available to see.
+
+::: tip Rules
+* Viewing a timesheet is limited to the employee himself, his current manager or employees with the HR or administrator roles.
+:::
+
+The timesheets history are available on the Employee’s profile page.
+
+![](./img/time-tracking-history.png)
