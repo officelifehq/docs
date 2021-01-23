@@ -112,7 +112,7 @@ When clicking on the View button, you get access to the list of all employees wi
 
 ![](./img/time-tracking-dashboard-hr-list-employees-accept-reject.png)
 
-You can
+For now, it’s not possible for an HR to view past timesheets they approved.
 
 ## Viewing past timesheets
 
