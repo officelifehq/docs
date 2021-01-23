@@ -100,6 +100,20 @@ When there are no more timesheets to approve, OfficeLife will simply show a nice
 
 For now, it’s not possible for a manager to view past timesheets (s)he approved.
 
+### As an HR
+
+Sometimes employees do not have a manager. In this case, they still need someone to validate the timesheets - and this person is someone with the HR role.
+
+When an employee has the HR role, (s)he will gain access to a new tab on the dashboard. In this page are listed all the timesheets of employees who don’t have a manager.
+
+![](./img/time-tracking-dashboard-hr-list-employees-without-managers.png)
+
+When clicking on the View button, you get access to the list of all employees with all the timesheets that need validation.
+
+![](./img/time-tracking-dashboard-hr-list-employees-accept-reject.png)
+
+For now, it’s not possible for an HR to view past timesheets they approved.
+
 ## Viewing past timesheets
 
 All the timesheets that were created by an employee are available to see.
