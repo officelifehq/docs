@@ -242,3 +242,5 @@ If you log your time on a task, this time will be automatically logged on your t
 ### Updating or deleting a task
 
 To update or delete a task, simply mouse-over the task, and click on the option you would like to do.
+
+You can also go to the details of a task and select the Edit option on the right sidebar.
