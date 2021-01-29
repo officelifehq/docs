@@ -191,7 +191,16 @@ A task can also be assigned to someone. This lets people easily know who's respo
 
 ### List of tasks
 
-The list of tasks shows the complete lists and tasks in the project.
+The list of tasks shows the complete task lists and tasks in the project.
+
+![](./img/project-tasks-list.png)
+
+For each task, the list shows
+* the task’s title,
+* the assignee, if applicable,
+* the overall time people have spent on this task.
+
+Note that we can’t see the description (if it exists) of tasks in this view.
 
 ### Creating a task and a task list
 
@@ -203,6 +212,35 @@ You can create lists in the project, or create simple tasks without lists.
 
 ![](./img/project-tasks-create.png)
 
+You can assign someone as the person’s responsible for moving forward with the task.
+
+::: tip Rules
+* Only project members can be assigned as assignee.
+* The title of the task is limited to 255 characters.
+:::
+
+### Viewing a task
+
+To view a task’s details, click on the task title in a task list.
+
+![](./img/project-tasks-view.png)
+
+In this view, all the information about the task are displayed:
+* the title and description,
+* the assignee,
+* the total time spent on the task by anyone,
+* the list the task belongs to.
+
+A project member can also
+* edit or delete a task,
+* add a time spent on the task.
+
+Those three options are available on the sidebar.
+
+If you log your time on a task, this time will be automatically logged on your timesheets as well.
+
 ### Updating or deleting a task
 
 To update or delete a task, simply mouse-over the task, and click on the option you would like to do.
+
+You can also go to the details of a task and select the Edit option on the right sidebar.
