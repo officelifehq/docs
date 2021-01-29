@@ -61,6 +61,16 @@ A good project update gives audience of all kind enough information to know it t
 
 You can’t read past project updates.
 
+## Viewing projects on an employee’s page
+
+When visiting the profile page of an employee, anyone in the company can see which projects the employee is part of, as you can see below.
+
+![](./img/project-employee-profile-page.png)
+
+It’s important to note that this view only shows the projects the employee is a member of - not projects the employee has created a task or a message into.
+
+This view also shows the number of tasks (s)he assigned to, and the number of messages (s)he’s written.
+
 ## Creating a project
 
 ### Rules
