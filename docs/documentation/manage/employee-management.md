@@ -8,6 +8,16 @@ In OfficeLife, an employee is not necessarily linked to a user. It’s really im
 
 A user is someone who has access to OfficeLife, and when he’s inside his account, he’s an employee. However, an employee has to be created inside OfficeLife by a user.
 
+## Structure of the Employee profile page
+
+The employee profile page is structured around 4 main tabs, some of them being invisible to employees without enough rights:
+
+* the Presentation tab,
+* the Work tab,
+* the Performance tab,
+* and the Administration tab.
+
+
 ## Manage employees
 
 Employees are managed in Adminland. Here are all the things you can do in Adminland about employees:
