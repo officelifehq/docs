@@ -239,7 +239,7 @@ To add a new rate, simply click on the big Add rate button at the top.
 
 This will add a new rate and set it to active. That means it will immediately be the new rate that will be taken into account every time the employee will enter his/her time tracking information on his/her timesheets or project tasks. This won’t affect existing time tracking entries at all.
 
-#### Deleting a new rate
+#### Deleting a rate
 
 To delete a rate, simply click on the Delete button next to the rate you want to remove from the system.
 
