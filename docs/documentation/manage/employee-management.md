@@ -178,7 +178,10 @@ Assigning an employee status to an employee is done on the Employee profile page
 
 ### Overview
 
-External employees ([as defined here](#internal-vs-external-employees)) have some special information attached to them in OfficeLife.
+External employees ([as defined here](#internal-vs-external-employees)) have some special information attached to them in OfficeLife:
+
+* the contract renewal date,
+* the rate they charge.
 
 ### Managing the contract renewal date
 
@@ -214,6 +217,33 @@ First, it will inform the external employee himself, as this information will be
 Then, it will inform the manager(s) of this employee on their manager dashboard if, again, the renewal date is 30 days (or less) away.
 
 ![](./img/employee_contract_renewal_date_dashboard_manager.png)
+
+### Managing the rates
+
+External employees always charge a rate for their expertise. OfficeLife lets you define a rate for each external employee, and this rate will be used to calculate the costs of projects directly.
+
+Rates are expressed hourly (ie. `160 USD per hour`).
+
+![](./img/employee_contract_rate_list.png)
+
+::: tip Rules
+* Rates should be a number (without decimals) from 1 to 10000.
+* Only one rate can be active at any time.
+:::
+
+#### Adding a new rate
+
+To add a new rate, simply click on the big Add rate button at the top.
+
+![](./img/employee_contract_rate_add.png)
+
+This will add a new rate and set it to active. That means it will immediately be the new rate that will be taken into account every time the employee will enter his/her time tracking information on his/her timesheets or project tasks. This won’t affect existing time tracking entries at all.
+
+#### Deleting a new rate
+
+To delete a rate, simply click on the Delete button next to the rate you want to remove from the system.
+
+Very important note: deleting a rate won’t affect past timesheets and project costs that were calculated in the past.
 
 ## Work from home
 
