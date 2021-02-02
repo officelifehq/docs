@@ -152,7 +152,7 @@ To add an employee status, simply click on the Button at the top of the page, an
 
 Once created, the status will be immediately available to be assigned to employees.
 
-When a status is udpated, the change will be immediately taken into account. If a status previously was used for external employees and is now used to manage internal employees instead, any information that was depending on the external status will be kept in the database - they simply won't be deleted, only not shown to the employees.
+When a status is updated, the change will be immediately taken into account. If a status previously was used for external employees and is now used to manage internal employees instead, any information that was depending on the external status will be kept in the database - they simply won't be deleted, only not shown to the employees.
 
 ::: tip Rules
 * Employees can have only one employee status at a time.
@@ -181,7 +181,17 @@ Assigning an employee status to an employee is done on the Employee profile page
 External employees ([as defined here](#internal-vs-external-employees)) have some special information attached to them in OfficeLife:
 
 * the contract renewal date,
-* the rate they charge.
+* the rate they charge the company.
+
+These two information are displayed on the Employee’s profile page, but only if the employee who views the profile of the consultant is:
+
+* the employee him/herself,
+* the manager of the employee,
+* an employee with either the HR or administrator privilege.
+
+This is how the information is displayed on the Employee profile page.
+
+![](./img/employee_profile_contract_information.png)
 
 ### Managing the contract renewal date
 
@@ -192,7 +202,7 @@ Once set, the contract renewal date will appear on the Employee profile, but onl
 ![](./img/employee_contract_renewal_date.png)
 
 ::: tip Rules
-* This information will only be shown if the employee is associated to a status with the External type.
+* This information will only be shown if the employee is associated with a status of the External type.
 :::
 
 #### Editing the contract renewal date
