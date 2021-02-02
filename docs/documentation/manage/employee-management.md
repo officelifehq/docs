@@ -183,7 +183,7 @@ External employees ([as defined here](#internal-vs-external-employees)) have som
 * the contract renewal date,
 * the rate they charge the company.
 
-These two information are displayed on the Employee profile page, but only if the employee who views the profile of the consultant is:
+These two information are displayed on the Employee’s profile page, but only if the employee who views the profile of the consultant is:
 
 * the employee him/herself,
 * the manager of the employee,
