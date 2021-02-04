@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'OfficeLife Documentation',
-  description: 'Everything you need to know how your company is doing.',
+  title: 'OfficeLife Documentation Portal',
+  description: 'Everything you need to know about OfficeLife.',
   themeConfig: {
     logo: '/vuepress-logo.png',
     lastUpdated: 'Last updated',
