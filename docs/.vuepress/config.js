@@ -41,31 +41,31 @@ module.exports = {
             items: [
               {
                 text: 'Recruit',
-                link: '/section/'
+                link: '/documentation/'
               },
               {
                 text: 'Manage',
-                link: '/section/'
+                link: '/documentation/manage/overview'
               },
               {
                 text: 'Operate',
-                link: '/section/'
+                link: '/documentation/operate/project-management'
               },
               {
                 text: 'Communicate',
-                link: '/section/'
+                link: '/documentation/'
               },
               {
                 text: 'Grow',
-                link: '/section/'
+                link: '/documentation/'
               }
             ]
           }
         ]
       },
       {
-        text: 'Contribute',
-        link: '/contribution'
+        text: 'Developers',
+        link: '/contribution/overview'
       },
       {
         text: 'Links',
@@ -86,6 +86,7 @@ module.exports = {
       },
     ],
     sidebar: {
+      '/contribution/': getContributionSidebar(),
       '/documentation/': getDocumentationSidebar(),
     },
     plugins: [
@@ -93,6 +94,32 @@ module.exports = {
       '@vuepress/medium-zoom'
     ]
   }
+}
+
+function getContributionSidebar() {
+  return [
+    {
+      title: 'Introduction',
+      collapsable: false,
+      children: [
+        'overview',
+      ]
+    },
+    {
+      title: '👩‍🌾 Developers',
+      collapsable: false,
+      children: [
+        ['core-contributors/deployment-process', 'Deployment'],
+      ]
+    },
+    {
+      title: '👻 Core contributors',
+      collapsable: false,
+      children: [
+        ['core-contributors/project-management', 'Project management'],
+      ]
+    }
+  ]
 }
 
 function getDocumentationSidebar() {
