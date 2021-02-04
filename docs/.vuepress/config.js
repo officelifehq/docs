@@ -109,14 +109,14 @@ function getContributionSidebar() {
       title: '👩‍🌾 Developers',
       collapsable: false,
       children: [
-        ['core-contributors/deployment-process', 'Deployment'],
+        ['developers/guidelines', 'Guidelines'],
       ]
     },
     {
       title: '👻 Core contributors',
       collapsable: false,
       children: [
-        ['core-contributors/project-management', 'Project management'],
+        ['core-contributors/deployment-process', 'Deployment'],
       ]
     }
   ]
