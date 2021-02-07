@@ -43,6 +43,6 @@ Once the e-coffee took place, employees can use the `I've participated` button. 
 
 ## Viewing past e-coffee sessions
 
-Employees can see the list of e-coffee sessions they were matched with on their Employee profile page.
+Employees can see the list of e-coffee sessions along with the people they were matched with on their Employee profile page.
 
 ![](./img/e-coffee-employee-profile.png)
