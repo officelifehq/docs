@@ -148,6 +148,13 @@ function getDocumentationSidebar() {
         ['operate/project-management', 'Project management'],
         ['operate/time-tracking', 'Time tracking']
       ]
+    },
+    {
+      title: '🧚‍♀️ Grow',
+      collapsable: false,
+      children: [
+        ['grow/e-coffee', 'e-Coffees'],
+      ]
     }
   ]
 }
