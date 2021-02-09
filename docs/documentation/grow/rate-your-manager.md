@@ -15,7 +15,7 @@ On the last day of every month, employees who have managers will automatically b
 * all employees have answered,
 * we've reached the 3 working days limit.
 
-![first step of asking for feedback](./img/dashboard_rate_manager_survey.png)
+IMG HERE
 
 This is basically a simple question with three possible answers: Have you appreciated working with your manager this month?
 
@@ -23,13 +23,13 @@ And the possible answers are: `Absolutely`, `It’s okay` and `Not at all`.
 
 Employees can also add a comment if they want.
 
-![first step of asking for feedback](./img/dashboard_rate_manager_survey_comment.png)
+IMG HERE
 
 Everything is completely anonymous. No one, not even HR or administrators, will be able to know who said what. We'll just know that someone voted and added a comment.
 
 Once an answer has been submitted by an employee, it can’t be changed by anyone, not even by the employee.
 
-![first step of asking for feedback](./img/dashboard_rate_manager_survey_success.png)
+IMG HERE
 
 ## Past surveys
 
@@ -38,14 +38,14 @@ As soon as a survey ends, results will be displayed
 * in the Employee profile’s page of the manager, even if he stops being a manager,
 * in the HR tab on the Dashboard, so HR can have an overview of how managers are doing, generally.
 
-![list of surveys](./img/employee_surveys_as_manager.png)
+IMG HERE
 
 Past surveys will always show
 
 * the number and names of employees that the manager managed at the time,
 * the overall rating.
 
-![list of surveys](./img/employee_surveys_detail.png)
+IMG HERE
 
 Past surveys are only visible by:
 * the manager who was targeted by the surveys,
