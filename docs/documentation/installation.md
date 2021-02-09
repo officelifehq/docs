@@ -5,7 +5,9 @@
 OfficeLife comes in two flavors:
 
 * as a SAAS, meaning that you need to pay a monthly fee to access the service, on an instance that we host ourselves. We take care of everything, from maintenance to upgrading the instance,
-* as a software that you can download and install yourself. You will have to maintain this instance yourself. But it’s free 😀 Below are all the steps you need to follow to install an instance of OfficeLife yourself.
+* as a software that you can download and install yourself. You will have to maintain this instance yourself. However it’s free, so ¯\_(ツ)_/¯
+
+Below are all the steps you need to follow to install an instance of OfficeLife yourself.
 
 ## Requirements for self-hosting
 
