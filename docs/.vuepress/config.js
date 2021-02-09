@@ -125,7 +125,7 @@ function getContributionSidebar() {
 function getDocumentationSidebar() {
   return [
     {
-      title: 'Setup',
+      title: '🐄 OfficeLife',
       collapsable: false,
       children: [
         'introduction',
@@ -138,7 +138,9 @@ function getDocumentationSidebar() {
       collapsable: false,
       children: [
         ['manage/overview', 'Overview'],
-        ['manage/employee-management', 'Employee management']
+        ['manage/employee-management', 'Employee management'],
+        ['manage/team-management', 'Team management'],
+        ['manage/company-management', 'Company management']
       ]
     },
     {
@@ -146,7 +148,16 @@ function getDocumentationSidebar() {
       collapsable: false,
       children: [
         ['operate/project-management', 'Project management'],
-        ['operate/time-tracking', 'Time tracking']
+        ['operate/time-tracking', 'Time tracking'],
+        ['operate/expenses', 'Expenses'],
+        ['operate/hardware', 'Hardware management'],
+      ]
+    },
+    {
+      title: '🛰 Communicate',
+      collapsable: false,
+      children: [
+        ['communicate/recent-ships', 'Recent ships']
       ]
     },
     {
@@ -154,6 +165,9 @@ function getDocumentationSidebar() {
       collapsable: false,
       children: [
         ['grow/e-coffee', 'e-Coffees'],
+        ['grow/one-on-ones', '1-on-1’s'],
+        ['grow/rate-your-manager', 'Rate your manager'],
+        ['grow/skills', 'Skills'],
       ]
     }
   ]

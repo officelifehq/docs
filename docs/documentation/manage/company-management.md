@@ -1,0 +1,46 @@
+# Management of the company
+
+## Company information
+
+### Overview
+
+Every company has some specific details: name, currency used, timezone.
+
+OfficeLife lets you customize some aspects of your company, without giving too many settings to play with. We believe that settings should be avoided as much as possible. But some things... well, some things should be configurable.
+
+### Update company’s name
+
+Your company’s name is saved when you first create your company’s account. However, you can always change it as much as you want – although we suspect you won’t have to change the name that often.
+
+![change your company name](./img/adminland_general_company_name.png)
+
+That being said, updating the name is really easy. Simply click on the Rename button and choose a new name. The name will be instantly changed everywhere in the software and all documents that you can export.
+
+::: tip Rules
+* Only someone with the administrator role can update the company name.
+* The name of the company should be no longer than 255 characters.
+:::
+
+
+## Currency
+
+### Overview
+
+Every company needs to deal with money at some point. Money is represented by a currency. In OfficeLife, at the moment, a company can only have one active currency.
+
+Currencies in OfficeLife strictly follow the [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) specification, meaning that they are defined by a three letters code. Thus, Euro is `EUR`, US dollars is `USD` and so on.
+
+Current features that use the concept of company currency:
+
+* Expenses.
+
+### Defining the company’s currency
+
+By default, when you create your OfficeLife account, your account is assigned a default currency automatically: USD, or US dollars. You can change this in Adminland very easily.
+
+Simply go to Adminland section, under general, and indicate which currency is the default in your company.
+
+
+::: tip Rules
+* Only someone with the administrator role can change the currency used in the company.
+:::

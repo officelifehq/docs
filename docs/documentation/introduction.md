@@ -72,8 +72,9 @@ OfficeLife is structured around 5 **domains**. Each domain represents a step in 
 * Employee and team morale
 * One on Ones
 * Rate your manager
+* Skills
 * Objectives Key Results (OKR)
-* e-Coffees
+* [e-Coffees](/documentation/grow/e-coffee)
 
 ## How is OfficeLife different
 
