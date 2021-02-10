@@ -41,8 +41,24 @@ Once the e-coffee took place, employees can use the `I've participated` button. 
 
 ![](./img/e-coffee-dashboard-completed.png)
 
-## Viewing past e-coffee sessions
+## Viewing past e-coffee sessions as an employee
 
 Employees can see the list of e-coffee sessions along with the people they were matched with on their Employee profile page.
 
+The default view shows up to 3 latest e-coffee sessions.
+
 ![](./img/e-coffee-employee-profile.png)
+
+You can see the full list of matches for this employee by clicking on the `View eCoffee history`.
+
+## Accessing more information about current and past e-coffee sessions as HR
+
+Human resources representatives have more information of the current e-coffee session, and past sessions.
+
+Inside the HR tab of the Company screen, employees with the HR status can see a dashboard showing:
+
+* the number of matches who have been taken place so far for the current e-coffee session,
+* the number of amtches who have been taken place in the previous e-coffee session,
+* and finally, how many matches usually take place in a session.
+
+![](./img/e-coffee-hr-company.png)
