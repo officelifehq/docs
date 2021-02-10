@@ -57,8 +57,8 @@ Human resources representatives have more information of the current e-coffee se
 
 Inside the HR tab of the Company screen, employees with the HR status can see a dashboard showing:
 
-* the number of employees who have participated so far for the current e-coffee session,
-* the number of employees who have participated in the previous e-coffee session,
-* and finally, how many employee usually participate in a session.
+* the number of matches who have been taken place so far for the current e-coffee session,
+* the number of amtches who have been taken place in the previous e-coffee session,
+* and finally, how many matches usually take place in a session.
 
 ![](./img/e-coffee-hr-company.png)
