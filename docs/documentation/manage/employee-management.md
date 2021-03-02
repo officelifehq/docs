@@ -89,7 +89,7 @@ This is how the Review screen looks like.
 
 As you can see, this screen lists
 
-* the total number of entries in the file
+* the total number of entries in the file,
 * the number of entries we consider invalid - and therefore, that we can't import,
 * the number of entries that we could import.
 
