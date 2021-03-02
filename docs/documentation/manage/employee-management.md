@@ -47,6 +47,65 @@ The final mandatory information is the role this employee will have. Refer to th
 * The first name, last name and email address fields are limited to 255 characters.
 :::
 
+### Importing employees
+
+OfficeLife lets you upload import employees. Right now, we support the upload of a CSV file.
+
+The import process works as follow:
+
+1. You need to generate a CSV file that contains all the employees you want to import,
+2. You upload the CSV to OfficeLife
+3. OfficeLife will check the file for invalid entries
+4. OfficeLife will ask you to confirm the import of the valid entries from the file.
+
+In Adminland, under Manage Employees > Import, you can upload the CSV file.
+
+It's really important to understand that the CSV file needs to follow a specific structure so we can properly import it. Otherwise, we can't know which row contains which information, leading to a lot of errors for the newly imported employees.
+
+We strongly suggest that you follow [this structure](https://gist.github.com/djaiss/73f3b19f9d465359ab8750a0368657ff) to get started.
+
+#### Uploading a file
+
+To upload a file, use the following screen to proceed.
+
+![](./img/employee_import.png)
+
+::: tip Rules
+* Before uploading the file, make sure the file follow [the structure](https://gist.github.com/djaiss/73f3b19f9d465359ab8750a0368657ff) described above.
+* Only CSV files can be uploaded here.
+:::
+
+Once the file is uploaded, you will be redirected to the Review screen.
+
+#### Reviewing data before importing
+
+Once a file has been uploaded, you need to review the data before we can import it to OfficeLife.
+
+This process is important because we don't want you to import invalid data without you knowing it.
+
+This is how the Review screen looks like.
+
+![](./img/employee_import_review.png)
+
+As you can see, this screen lists
+
+* the total number of entries in the file
+* the number of entries we consider invalid - and therefore, that we can't import,
+* the number of entries that we could import.
+
+Once you are ready to proceed with the import, simply click on the Import button on this screen to start importing employees.
+
+Before importing data, we will make sure that the email address associated with each entry
+
+* is not already used by another existing employee,
+* is not duplicated in the list you want to import.
+
+::: tip Rules
+* Only valid entries will be imported.
+* The import can take quite some time - be patient, please.
+* Employees that are imported will be regular employees (without special roles like administrator), and will not be invited by email to let them create an account themselves.
+:::
+
 ### Locking an employee
 
 Instead of having to delete an employee, you can lock the employee’s account. Locking lets you prevent the employee from logging into his account, but keep track of everything this employee has ever done in OfficeLife.
