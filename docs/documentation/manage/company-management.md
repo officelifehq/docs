@@ -44,3 +44,16 @@ Simply go to Adminland section, under general, and indicate which currency is th
 ::: tip Rules
 * Only someone with the administrator role can change the currency used in the company.
 :::
+
+## Account cancellation
+
+You are in complete control of your data. You can cancel the company's account at anytime.
+
+Keep in mind, though, that cancelling the company's account means
+
+* all the data will be immediately deleted from the servers. Immediately.
+* data is kept in the backups for 60 days. After 60 days, the backups will be deleted. We won't be able to restore your data from the backup, though.
+
+::: tip Rules
+* Only someone with the administrator role can cancel the company's account.
+:::
