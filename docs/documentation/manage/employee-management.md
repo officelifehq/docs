@@ -6,7 +6,7 @@ An Employee is one of the core concepts of OfficeLife. It represents a human who
 
 In OfficeLife, an employee is not necessarily linked to a user. It’s really important to understand this. A user can have two different accounts in two different companies, with the same user account. This is because when a user creates an account in OfficeLife, (s)he can actually join an existing company or create a new one.
 
-A user is someone who has access to OfficeLife, and when he’s inside his account, he’s an employee. However, an employee has to be created inside OfficeLife by a user.
+A user is someone who has access to OfficeLife, and when (s)he’s inside his account, (s)he’s an employee. However, an employee has to be created inside OfficeLife by a user.
 
 ## Structure of the Employee profile page
 
@@ -38,7 +38,7 @@ To add a new employee, you need 3 pieces of mandatory information:
 
 During this process, you can invite the employee by email. This will send an email to this employee, inviting him to create an account on OfficeLife so (s)he actually use the software. You don't have to invite this person by email at this stage as you can do this later on.
 
-If an employee is invited to create a user account, (s)he will be put in an `Invited` state. This state will simply serve as an indicator on the list of employees and will disappear as soon as the employee creates an account after being invited.
+If an employee is invited to create a user account, (s)he will be put in an `Invited` state. This state will  serve as an indicator on the list of employees and will disappear as soon as the employee creates an account after being invited.
 
 The final mandatory information is the role this employee will have. Refer to the documentation about roles to know more about what that means.
 
@@ -93,7 +93,7 @@ As you can see, this screen lists
 * the number of entries we consider invalid - and therefore, that we can't import,
 * the number of entries that we could import.
 
-Once you are ready to proceed with the import, simply click on the Import button on this screen to start importing employees.
+Once you are ready to proceed with the import,  click on the Import button on this screen to start importing employees.
 
 Before importing data, we will make sure that the email address associated with each entry
 
@@ -202,7 +202,7 @@ This internal/external status can be changed anytime.
 
 Employee statuses are created in Adminland.
 
-To add an employee status, simply click on the Button at the top of the page, and fill in two important pieces of information:
+To add an employee status,  click on the Button at the top of the page, and fill in two important pieces of information:
 
 * the name of the status itself. This is internal to your company, so it’s really up to you,
 * whether employees who will be associated with this status are [internal or external employees](#internal-vs-external-employees).
@@ -211,7 +211,7 @@ To add an employee status, simply click on the Button at the top of the page, an
 
 Once created, the status will be immediately available to be assigned to employees.
 
-When a status is updated, the change will be immediately taken into account. If a status previously was used for external employees and is now used to manage internal employees instead, any information that was depending on the external status will be kept in the database - they simply won't be deleted, only not shown to the employees.
+When a status is updated, the change will be immediately taken into account. If a status previously was used for external employees and is now used to manage internal employees instead, any information that was depending on the external status will be kept in the database - they  won't be deleted, only not shown to the employees.
 
 ::: tip Rules
 * Employees can have only one employee status at a time.
@@ -266,7 +266,7 @@ Once set, the contract renewal date will appear on the Employee profile, but onl
 
 #### Editing the contract renewal date
 
-OfficeLife lets you easily change this date on the Employee profile page, as shown below.
+OfficeLife lets you change this date on the Employee profile page, as shown below.
 
 ![](./img/employee_contract_renewal_date_edit.png)
 
@@ -302,7 +302,7 @@ Rates are expressed hourly (ie. `160 USD per hour`).
 
 #### Adding a new rate
 
-To add a new rate, simply click on the big Add rate button at the top.
+To add a new rate,  click on the big Add rate button at the top.
 
 ![](./img/employee_contract_rate_add.png)
 
@@ -310,7 +310,7 @@ This will add a new rate and set it to active. That means it will immediately be
 
 #### Deleting a rate
 
-To delete a rate, simply click on the Delete button next to the rate you want to remove from the system.
+To delete a rate,  click on the Delete button next to the rate you want to remove from the system.
 
 Very important note: deleting a rate won’t affect past timesheets and project costs that were calculated in the past.
 
@@ -332,7 +332,7 @@ An employee can indicate that (s)he will work from home by checking the checkbox
 
 Sometimes in your job, you have questions about very specific subjects. You know that someone in the company has answers to these questions, but you have no idea who. Each employee has a specific set of skills, or knowledge. It can be about `PHP`, or how `Siemens machine work`, or `kitchen pricing strategies`. So you end up asking around and hope that someone knows somebody who can help you.
 
-Skills in OfficeLife are here to solve this problem. Employees can enter their own skills, and everyone in the company can search a specific skill to find all the people who match the skill. It’s simple, and efficient.
+Skills in OfficeLife are here to solve this problem. Employees can enter their own skills, and everyone in the company can search a specific skill to find all the people who match the skill.
 
 ### Browsing skills
 
@@ -365,7 +365,7 @@ A skill that you create, can also be chosen by another employee on his own profi
 
 Once created, the skill will be displayed on your profile page.
 
-For the Latin alphabet, accents will be automatically removed from the skill name (accents like `é`, `õ`), and words will be saved as lowercase. For example, `Météo` will be saved as `meteo`. Why? Simply because as skills can be created by anyone in the company, it could be very easy to have the same word with a different case, or for non-English words, to create two words from the same word, but with different accents. By removing accents and putting words in lowercase, we increase the chance that people will find the skills they are looking for.
+For the Latin alphabet, accents will be automatically removed from the skill name (accents like `é`, `õ`), and words will be saved as lowercase. For example, `Météo` will be saved as `meteo`. Why? As skills can be created by anyone in the company, it could be very easy to have the same word with a different case, or for non-English words, to create two words from the same word, but with different accents. By removing accents and putting words in lowercase, we increase the chance that people will find the skills they are looking for.
 
 ::: tip Rules
 * A skill can only be created by the employee.
@@ -377,7 +377,7 @@ For the Latin alphabet, accents will be automatically removed from the skill nam
 
 ### Updating a skill
 
-On your employee’s profile page, you can’t update a skill. In order for you to update a skill, you simply need to remove it from the list of your skills and create a new one.
+On your employee’s profile page, you can’t update a skill. In order for you to update a skill, you  need to remove it from the list of your skills and create a new one.
 
 That being said, an administrator can update the name of a skill from the list of skills in the Company tab. When changing this name, it will be reflected everywhere.
 
@@ -470,7 +470,7 @@ Expenses can be classified into categories. A category (sometimes called GL) rep
 
 You can change the names of the categories, delete them or add new ones at anytime.
 
-An expense doesn’t necessarily have to be associated with a category, but it’ll be much easier accounting-wise if it’s associated with one upon creation. When an expense doesn’t have a category, it’ll be simply put in the Uncategorized category.
+An expense doesn’t necessarily have to be associated with a category, but it’ll be much easier accounting-wise if it’s associated with one upon creation. When an expense doesn’t have a category, it’ll be  put in the Uncategorized category.
 
 ### Creating an expense category
 

@@ -120,7 +120,7 @@ If you delete a project, all information associated with it will be deleted as w
 
 In every project, lots of decisions are being made every day. Some are critically important, others are less important. The key, as always, is communication. When every decision is logged, communication improves, and less errors are made. Also, when everything is logged, we can relate to it later on.
 
-OfficeLife allows everyone to log a project decision, simply and easily. It’s a simple but powerful feature.
+OfficeLife allows everyone to log a project decision. It’s a simple but powerful feature.
 
 The list of decisions is visible by anyone in the company. Remember: transparency is one of our core values at OfficeLife.
 
@@ -134,7 +134,7 @@ A project decision is composed of three pieces of information:
 
 ### Creating a project decision
 
-To create a project decision, simply go to the Decisions tab on the project page.
+To create a project decision,  go to the Decisions tab on the project page.
 
 ![](./img/project-decisions-create.png)
 
@@ -144,11 +144,11 @@ However, you can, if you want, add who made the decision. We call it `deciders`.
 
 Once created, the decision will immediately appear in the list of decisions for this project.
 
-Anyone in the company can create a decision for a project, even if he’s not part of the project.
+Anyone in the company can create a decision for a project, even if (s)he’s not part of the project.
 
 ### Deleting a project decision
 
-Sometimes you need to delete a decision. To do so, simply use the menu next to each decision.
+Sometimes you need to delete a decision. To do so,  use the menu next to each decision.
 
 ![](./img/project-decisions-delete.png)
 
@@ -193,11 +193,11 @@ Anyone in the company can update or delete a message.
 
 ### Overview
 
-Tasks are the central part of any project. This is how we know a project is moving forward. OfficeLife lets you easily manage tasks and assign them to project members, so projects are actually done.
+Tasks are the central part of any project. This is how we know a project is moving forward. OfficeLife lets you manage tasks and assign them to project members, so projects are actually done.
 
 A task can be part of a task list, or it can live outside of a list. It's easier to make it part of a list, though, so you can track progress towards a goal.
 
-A task can also be assigned to someone. This lets people easily know who's responsible of what.
+A task can also be assigned to someone. This lets people know who's responsible of what.
 
 ### List of tasks
 
@@ -251,6 +251,6 @@ If you log your time on a task, this time will be automatically logged on your t
 
 ### Updating or deleting a task
 
-To update or delete a task, simply mouse-over the task, and click on the option you would like to do.
+To update or delete a task,  mouse-over the task, and click on the option you would like to do.
 
 You can also go to the details of a task and select the Edit option on the right sidebar.

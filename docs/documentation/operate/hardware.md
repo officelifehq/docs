@@ -2,7 +2,7 @@
 
 ## Overview
 
-Every company gives their employees some tools to work. Companies using OfficeLife are probably related to technology somehow, and if that's the case, they have laptops and desktops and mice and keyboards and cables that they give to their employees. Keeping track of who has what, and the company's inventory in general, can quickly become a mess. This is why OfficeLife gives companies an easy and simple way of keeping track of hardware.
+Every company gives their employees some tools to work. Companies using OfficeLife are probably related to technology somehow, and if that's the case, they have laptops and desktops and mice and keyboards and cables that they give to their employees. Keeping track of who has what, and the company's inventory in general, can quickly become a mess. This is why OfficeLife provides companies with a straigthforward way of keeping track of hardware.
 
 ## How to manage hardware
 

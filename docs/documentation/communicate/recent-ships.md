@@ -25,7 +25,7 @@ Creating a Recent ship entry takes place on the Team page itself. Anyone in the 
 
 ![add a new recent ship entry adminland](./img/recent_ship_create.png)
 
-When creating an entry, you can choose to associate specific people in the team with this entry. If specific people are provided, this entry will also appear on the profile page of each one of these employees. Each employee associated with an entry will also get a notification so he’s aware that he’s been flagged as someone who contributed to something great.
+When creating an entry, you can choose to associate specific people in the team with this entry. If specific people are provided, this entry will also appear on the profile page of each one of these employees. Each employee associated with an entry will also get a notification so (s)he’s aware that (s)he’s been flagged as someone who contributed to something great.
 
 You can associate employees from another team as well if you so desire, as sometimes, people from other teams can contribute to ship features. In that case, the entry will still be associated with the original team.
 

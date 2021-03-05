@@ -76,7 +76,7 @@ OfficeLife will make sure that you can not enter more than 24 hours for all entr
 
 ## Submitting a timesheet
 
-When you are satisfied with your timesheet, you can simply submit the timesheet for validation, and the timesheet will be marked as `Waiting for approval`.
+When you are satisfied with your timesheet, you can  submit the timesheet for validation, and the timesheet will be marked as `Waiting for approval`.
 
 ![](./img/time-tracking-dashboard-waiting-for-approval.png)
 
@@ -94,7 +94,7 @@ As soon as one of your direct report submits a timesheet, you will see them on t
 
 Each row in this table will disappear as soon as you take a decision to either approve or reject a timesheet.
 
-When there are no more timesheets to approve, OfficeLife will simply show a nice empty state.
+When there are no more timesheets to approve, OfficeLife will  show a nice empty state.
 
 ![](./img/time-tracking-manager-blank.png)
 

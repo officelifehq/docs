@@ -20,7 +20,7 @@ Expenses can be classified into categories. A category (sometimes called GL) rep
 
 You can change the names of the categories, delete them or add new ones at anytime.
 
-An expense doesn’t necessarily have to be associated with a category, but it’ll be much easier accounting-wise if it’s associated with one upon creation. When an expense doesn’t have a category, it’ll be simply put in the Uncategorized category.
+An expense doesn’t necessarily have to be associated with a category, but it’ll be much easier accounting-wise if it’s associated with one upon creation. When an expense doesn’t have a category, it’ll be  put in the Uncategorized category.
 
 ### Creating an expense category
 
@@ -143,7 +143,7 @@ An expense that has been rejected at this stage will be locked and can’t be up
 
 The accounting department is ultimately the last step of managing expenses in your company. They have the final word. It’s very rare that an expense will be rejected by this department if the manager already approved it, but it can happen.
 
-Why does the accounting department need to approve the expense? Technically, they don’t « approve » the expense - they simply acknowledge that all the information is correct before being filed and reimbursed.
+Why does the accounting department need to approve the expense? Technically, they don’t « approve » the expense - they  acknowledge that all the information is correct before being filed and reimbursed.
 
 When the accountant approves the expense, (s)he needs to indicate the date the expense should appear on the employee’s paycheck.
 
@@ -219,9 +219,9 @@ Inside Adminland there is a section called Expenses. This is where you have to g
 
 By default, in your account, no one will have access to the accountant role — not even administrators. You have to manually enter a name of an employee to add him to the list of authorized employees with this privilege.
 
-To add a new accountant, you simply have to click on the Add button, then type the first letters of the person you want to add.
+To add a new accountant, you  have to click on the Add button, then type the first letters of the person you want to add.
 
-Finally, simply select the employee from the search results and this person will have an immediate access to the Expense tab on the dashboard.
+Finally,  select the employee from the search results and this person will have an immediate access to the Expense tab on the dashboard.
 
 Note that when the employee becomes an accountant, (s)he receives a notification that will inform him that (s)he has access to this new role.
 
