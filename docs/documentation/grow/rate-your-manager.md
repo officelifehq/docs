@@ -35,7 +35,7 @@ IMG HERE
 
 As soon as a survey ends, results will be displayed
 
-* in the Employee profile’s page of the manager, even if he stops being a manager,
+* in the Employee profile’s page of the manager, even if (s)he stops being a manager,
 * in the HR tab on the Dashboard, so HR can have an overview of how managers are doing, generally.
 
 IMG HERE
@@ -56,7 +56,7 @@ Past surveys are only visible by:
 
 ### What happens if an employee gets another manager?
 
-If the employee gets another manager while a poll is active, he will still have to answer to the poll for the previous manager as it’s a valuable feedback.
+If the employee gets another manager while a poll is active, (s)he will still have to answer to the poll for the previous manager as it’s a valuable feedback.
 
 ### What happens if an employee is deleted from the system?
 

@@ -4,7 +4,7 @@
 
 In remote companies, it’s really hard to get to know people considering how it’s really easy to focus only on work during your daily interactions with your colleagues. In a non-remote world, random interactions happen and this is when you get to know people. A chat over coffee, or when the printer is taking its time to print the way too big batch of sheets that your colleague printed, etc... This is how you bond with people, and how you eventually produce better work.
 
-Also, when new employees are hired, they simply have no clue about their colleagues.
+Also, when new employees are hired, they have no clue about their colleagues.
 
 To help with this, OfficeLife comes with a nice feature called e-Coffee. Once enabled in your company, it will randomly match employees together, every week, so they can take 15 minutes to talk about everything but work.
 
@@ -12,7 +12,7 @@ To help with this, OfficeLife comes with a nice feature called e-Coffee. Once en
 
 To set up the e-coffee process in the company, head over to `Adminland` > `Manage eCoffee process`.
 
-In this screen, you have access to a simple setting that lets you activate the eCoffee process.
+In this screen, you have access to a single setting that lets you activate the eCoffee process.
 
 ![](./img/e-coffee-administration.png)
 
@@ -30,7 +30,7 @@ When the e-coffee process is activated in the company, each Monday, employees wi
 
 ![](./img/e-coffee-dashboard.png)
 
-It’s up to employees to actually setup the time to talk to each other. OfficeLife simply tells them who they should talk to.
+It’s up to employees to actually setup the time to talk to each other. OfficeLife tells them who they should talk to - nothing more.
 
 ::: tip Rules
 * As all the other information that are displayed on the Employee dashboard, the information is private to the employee who is logged.

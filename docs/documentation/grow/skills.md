@@ -4,7 +4,7 @@
 
 Sometimes in your job, you have questions about very specific subjects. You know that someone in the company has answers to these questions, but you have no idea who. Each employee has a specific set of skills, or knowledge. It can be about `PHP`, or `how Siemens machine work`, or `kitchen pricing strategies`. So you end up asking around and hope that someone knows somebody who can help you.
 
-Skills in OfficeLife are here to solve this problem. Employees can enter their own skills, and everyone in the company can search a specific skill to find all the people who match the skill. It’s simple, and efficient.
+Skills in OfficeLife are here to solve this problem. Employees can enter their own skills, and everyone in the company can search a specific skill to find all the people who match the skill.
 
 ## Browsing skills
 
@@ -37,7 +37,7 @@ A skill that you create, can also be chosen by another employee on his own profi
 
 Once created, the skill will be displayed on your profile page.
 
-For the Latin alphabet, accents will be automatically removed from the skill name (accents like `é`, `õ`), and words will be saved as lowercase. For example, `Météo` will be saved as `meteo`. Why? Simply because as skills can be created by anyone in the company, it could be very easy to have the same word with a different case, or for non-English words, to create two words from the same word, but with different accents. By removing accents and putting words in lowercase, we increase the chance that people will find the skills they are looking for.
+For the Latin alphabet, accents will be automatically removed from the skill name (accents like `é`, `õ`), and words will be saved as lowercase. For example, `Météo` will be saved as `meteo`. Why? As skills can be created by anyone in the company, it could be very easy to have the same word with a different case, or for non-English words, to create two words from the same word, but with different accents. By removing accents and putting words in lowercase, we increase the chance that people will find the skills they are looking for.
 
 ::: tip Rules
 * A skill can only be created by the employee.
@@ -49,7 +49,7 @@ For the Latin alphabet, accents will be automatically removed from the skill nam
 
 ## Updating a skill
 
-On your employee’s profile page, you can’t update a skill. In order for you to update a skill, you simply need to remove it from the list of your skills and create a new one.
+On your employee’s profile page, you can’t update a skill. In order for you to update a skill, you need to remove it from the list of your skills and create a new one.
 
 That being said, an administrator can update the name of a skill from the list of skills in the Company tab. When changing this name, it will be reflected everywhere.
 

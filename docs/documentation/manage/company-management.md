@@ -14,7 +14,7 @@ Your company’s name is saved when you first create your company’s account. H
 
 ![change your company name](./img/adminland_general_company_name.png)
 
-That being said, updating the name is really easy. Simply click on the Rename button and choose a new name. The name will be instantly changed everywhere in the software and all documents that you can export.
+That being said, updating the name is really easy. Click on the Rename button and choose a new name. The name will be instantly changed everywhere in the software and all documents that you can export.
 
 ::: tip Rules
 * Only someone with the administrator role can update the company name.
@@ -36,9 +36,9 @@ Current features that use the concept of company currency:
 
 ### Defining the company’s currency
 
-By default, when you create your OfficeLife account, your account is assigned a default currency automatically: USD, or US dollars. You can change this in Adminland very easily.
+By default, when you create your OfficeLife account, your account is assigned a default currency automatically: USD, or US dollars. You can change this in Adminland.
 
-Simply go to Adminland section, under general, and indicate which currency is the default in your company.
+Go to Adminland section, under general, and indicate which currency is the default in your company.
 
 
 ::: tip Rules
