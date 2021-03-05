@@ -4,7 +4,7 @@
 
 An Employee is one of the core concepts of OfficeLife. It represents a human who works at a company.
 
-In OfficeLife, an employee is not necessarily linked to a user. It’s really important to understand this. A user can have two different accounts in two different companies, with the same user account. This is because when a user creates an account in OfficeLife, he can actually join an existing company or create a new one.
+In OfficeLife, an employee is not necessarily linked to a user. It’s really important to understand this. A user can have two different accounts in two different companies, with the same user account. This is because when a user creates an account in OfficeLife, (s)he can actually join an existing company or create a new one.
 
 A user is someone who has access to OfficeLife, and when he’s inside his account, he’s an employee. However, an employee has to be created inside OfficeLife by a user.
 
@@ -36,9 +36,9 @@ To add a new employee, you need 3 pieces of mandatory information:
 
 ![](./img/employee_adminland_add.png)
 
-During this process, you can invite the employee by email. This will send an email to this employee, inviting him to create an account on OfficeLife so he actually use the software. You don't have to invite this person by email at this stage as you can do this later on.
+During this process, you can invite the employee by email. This will send an email to this employee, inviting him to create an account on OfficeLife so (s)he actually use the software. You don't have to invite this person by email at this stage as you can do this later on.
 
-If an employee is invited to create a user account, he will be put in an `Invited` state. This state will simply serve as an indicator on the list of employees and will disappear as soon as the employee creates an account after being invited.
+If an employee is invited to create a user account, (s)he will be put in an `Invited` state. This state will simply serve as an indicator on the list of employees and will disappear as soon as the employee creates an account after being invited.
 
 The final mandatory information is the role this employee will have. Refer to the documentation about roles to know more about what that means.
 
@@ -122,12 +122,12 @@ Contrary to the deletion process, locking will not erase any data we have on the
 ::: tip Rules
 * Only employees with the HR or administrator roles can lock an employee.
 * An employee can't lock himself, even with enough permissions. That means an administrator can't lock himself.
-* Once an employee is locked, he won’t appear in the search results anymore, nor in the list of employees in the application.
-* He won’t be listed in the list of team members if he was part of a team.
+* Once an employee is locked, (s)he won’t appear in the search results anymore, nor in the list of employees in the application.
+* (S)He won’t be listed in the list of team members if (s)he was part of a team.
 * If the employee was a manager with expenses to validate, expenses will be moved to the accounting stage directly.
 * If the employee had [the accountant role](/expenses/#who-can-manage-expenses), this role will automatically be removed.
 * [Current polls](/rate-your-manager) about the employee (if this employee was a manager) will be stopped immediately.
-* He will still appear in the list of employees inside Adminland.
+* (S)He will still appear in the list of employees inside Adminland.
 * All content written by the employee will still be available for everyone to see (worklogs, answers to questions,…).
 * The employee’s profile will still be accessible through direct links.
 :::
@@ -164,7 +164,7 @@ The hiring date is the date that the employee joined the company (or will join t
 
 Everyone in the company can see the complete date an employee joined the company.
 
-If this date is set in the future, that means the employee will soon join the company. When this date is in the range from now to next week, and if the employee will be part of a team, he will appear on the team’s dashboard so everyone on the team will know someone new is coming, as shown below.
+If this date is set in the future, that means the employee will soon join the company. When this date is in the range from now to next week, and if the employee will be part of a team, (s)he will appear on the team’s dashboard so everyone on the team will know someone new is coming, as shown below.
 
 ![](./img/employee_dashboard_team_new_hires.png)
 
@@ -322,7 +322,7 @@ Working from home becomes more and more common nowadays. When working from home 
 
 ### How to indicate that we work from home
 
-An employee can indicate that he will work from home by checking the checkbox on the Employee dashboard.
+An employee can indicate that (s)he will work from home by checking the checkbox on the Employee dashboard.
 
 ![](./img/employee_work_from_home.png)
 

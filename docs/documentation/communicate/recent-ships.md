@@ -56,6 +56,6 @@ For now, all entries are displayed - we don't limit the number of entries that s
 
 ## Recent ships on the dashboard’s team page
 
-When an employee belongs to a team, he has access to a Team dashboard. On this dashboard, amongst other things, the employee can see the list of recent ship entries for this team. This list only shows the 3 latest entries.
+When an employee belongs to a team, (s)he has access to a Team dashboard. On this dashboard, amongst other things, the employee can see the list of recent ship entries for this team. This list only shows the 3 latest entries.
 
 ![all the entries on dashboard team profile](./img/recent_ship_teams_dashboard.png)

@@ -22,7 +22,7 @@ yarn serve
 
 ## Deployment
 
-To deploy, there a simple step: accept the PR, merge it to `main` and it will be auto-deployed within minutes to Netlify.
+To deploy: accept the PR, merge it to `main` and it will be auto-deployed within minutes to Netlify.
 
 ### Netlify
 

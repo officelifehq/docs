@@ -106,7 +106,7 @@ Expenses can be deleted by the employee if it wasn't approved by a manager or an
 
 There are two gates needed to reimburse an expense:
 
-* the expense needs to be approved by the employee’s manager (if he has one),
+* the expense needs to be approved by the employee’s manager (if (s)he has one),
 * the expense needs to be approved by the accounting department after the manager’s approval.
 
 Now, let’s analyze in details what will happen as soon as an expense is created, depending on the situation.
@@ -117,7 +117,7 @@ In most cases, the employee will have a manager. In this situation, the manager 
 
 When an expense is logged by the employee:
 
-* a notification is created for the manager to let him know that he has to approve the expense,
+* a notification is created for the manager to let him know that (s)he has to approve the expense,
 * the status of the expense becomes waiting for manager’s approval.
 
 The manager will now see the expense on his manager’s dashboard. The expense can be approved or rejected.
@@ -145,11 +145,11 @@ The accounting department is ultimately the last step of managing expenses in yo
 
 Why does the accounting department need to approve the expense? Technically, they don’t « approve » the expense - they simply acknowledge that all the information is correct before being filed and reimbursed.
 
-When the accountant approves the expense, he needs to indicate the date the expense should appear on the employee’s paycheck.
+When the accountant approves the expense, (s)he needs to indicate the date the expense should appear on the employee’s paycheck.
 
 If the expense is approved:
 
-* A notification is created for the employee so he knows the expense is finally accepted. Also, the expense’s status becomes accepted.
+* A notification is created for the employee so (s)he knows the expense is finally accepted. Also, the expense’s status becomes accepted.
 * The expense will appear on the employee’s dashboard for 30 days after the expense is approved, so there will be enough time for the reimbursement to appear on the employee’s paycheck.
 
 If the expense is rejected:
@@ -223,7 +223,7 @@ To add a new accountant, you simply have to click on the Add button, then type t
 
 Finally, simply select the employee from the search results and this person will have an immediate access to the Expense tab on the dashboard.
 
-Note that when the employee becomes an accountant, he receives a notification that will inform him that he has access to this new role.
+Note that when the employee becomes an accountant, (s)he receives a notification that will inform him that (s)he has access to this new role.
 
 ### Removing the accounting role
 
