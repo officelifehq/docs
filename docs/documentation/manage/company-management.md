@@ -45,7 +45,7 @@ Go to Adminland section, under general, and indicate which currency is the defau
 
 ## Logo
 
-A company needs to express its identity through its visual identity. When the company logo is set, it will appear on the Company's dashboard under the Company tab.
+A company can express its identity through its visual identity. When the company logo is set, it will appear on the Company's dashboard under the Company tab.
 
 To upload or change the logo of the company, go to Adminland > General, and simply click on the Logo at the bottom of the page.
 
