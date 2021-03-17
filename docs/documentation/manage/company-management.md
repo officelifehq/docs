@@ -21,7 +21,6 @@ That being said, updating the name is really easy. Click on the Rename button an
 * The name of the company should be no longer than 255 characters.
 :::
 
-
 ## Currency
 
 ### Overview
@@ -40,9 +39,21 @@ By default, when you create your OfficeLife account, your account is assigned a 
 
 Go to Adminland section, under general, and indicate which currency is the default in your company.
 
-
 ::: tip Rules
 * Only someone with the administrator role can change the currency used in the company.
+:::
+
+## Logo
+
+A company can express its identity through its visual identity. When the company logo is set, it will appear on the Company's dashboard under the Company tab.
+
+To upload or change the logo of the company, go to Adminland > General, and simply click on the Logo at the bottom of the page.
+
+![](./img/adminland_general_company_logo.png)
+
+::: tip Rules
+* Only someone with the administrator role can change the logo.
+* The logo will be seen by anyone in the company.
 :::
 
 ## Account cancellation
