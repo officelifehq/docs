@@ -112,7 +112,7 @@ This information is displayed on the Summary page of the project and is meant to
 
 ## Deleting a project
 
-If you delete a project, all information associated with it will be deleted as well. This includes time tracking entries - so be sure of your decision of deleting the project before proceeding.
+If you delete a project, all information associated with it will be deleted as well. This includes time tracking entries - so be sure of your decision of deleting the project before proceeding. It also includes all the files, that will be permanently deleted as well.
 
 ## Project decisions
 
@@ -254,3 +254,44 @@ If you log your time on a task, this time will be automatically logged on your t
 To update or delete a task,  mouse-over the task, and click on the option you would like to do.
 
 You can also go to the details of a task and select the Edit option on the right sidebar.
+
+## Project files
+
+### Overview
+
+You might want to keep track of some documents during the life of a project, or for posterity.
+
+Files that are uploaded in a project are never deleted - unless you delete the project.
+
+### File list
+
+On the Files tab inside a project, you will find all the files that have been uploaded to the project.
+
+![](./img/project-files-index.png)
+
+### Upload a file
+
+To upload a file, under the File list, simply click on the Upload button, then choose a file to upload.
+
+Upload is very fast and it shouldn't take long.
+
+::: tip Rules
+* All employees in the company, regardless of the fact that they are in the project or not, can upload a file in a project.
+* There is no limit on the file size for a document - however, we suggest that files stay under the 100 Mb limit.
+* File sizes count against the files that are stored in your account.
+:::
+
+### Downloading a file
+
+To download a file, simply click on the filename. The browser will download it immediately.
+
+Anyone in the company can download a file that is in a project.
+
+### Deleting a file
+
+To delete a file, click on the Delete button next to each file.
+
+::: tip Rules
+* Any employee in the company can delete a file - there is no restrictions.
+* Files will be deleted immediately, and permanently, from the account. It is not possible to retrieve a deleted file.
+:::
