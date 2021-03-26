@@ -112,7 +112,7 @@ This information is displayed on the Summary page of the project and is meant to
 
 ## Deleting a project
 
-If you delete a project, all information associated with it will be deleted as well. This includes time tracking entries - so be sure of your decision of deleting the project before proceeding.
+If you delete a project, all information associated with it will be deleted as well. This includes time tracking entries - so be sure of your decision of deleting the project before proceeding. It also includes all the files, that will be permanently deleted as well.
 
 ## Project decisions
 
