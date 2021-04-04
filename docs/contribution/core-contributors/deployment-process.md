@@ -5,7 +5,7 @@
 OfficeLife uses [semantic-release](https://semantic-release.gitbook.io/semantic-release/) to manage releases.
 It allows to create new releases based on the history of modifications since last release, and create a patch/minor/major release depending on some rules.
 
-To create a new release there is 2 ways: create a pre-release or an official release.
+There are two ways to create a new release: create a pre-release or an official release.
 
 ### Create a pre-release
 
@@ -27,7 +27,7 @@ To create an official release (on main branch), go to [`Actions` > `Release`](ht
 
 ## Steps
 
-When a new release is created, semantic-release rules describied in the [`.releaserc`](https://github.com/officelifehq/officelife/blob/main/.releaserc) files are applied.
+When a new release is created, semantic-release rules described in the [`.releaserc`](https://github.com/officelifehq/officelife/blob/main/.releaserc) file are applied.
 
 | Plugin | Description |
 |--------|-------------|
@@ -39,6 +39,5 @@ When a new release is created, semantic-release rules describied in the [`.relea
 The actions that will be run by the whole workflow are:
 
 1. semantic-release creates a new release in GitHub
-2. a pull request is created on the `main` branch the update the `CHANGELOG.md` file
-3. a package is build with all dependencies, and built assets, and uploaded as release's assets file
-
+2. a pull request is created on the `main` branch to update the `CHANGELOG.md` file
+3. a package is built with all the dependencies and assets, which are uploaded as the release's asset files.
