@@ -47,6 +47,24 @@ The final mandatory information is the role this employee will have. Refer to th
 * The first name, last name and email address fields are limited to 255 characters.
 :::
 
+### Changing employee role (permission)
+
+You can change the role/permission of an employee at anytime, and changes take effect immediately.
+
+To update the role of an employee, head over to Adminland > Add/remove existing employees  > View all employees, then click on the `Change permission` link.
+
+![](./img/adminland_employees_permission_link.png)
+
+This will open a new window that lets you choose a new permission.
+
+![](./img/adminland_employees_permission.png)
+
+::: tip Rules
+* Only employees with the HR or administrator roles can edit an employee's role.
+* Changes are effective immediately.
+* The logged user can't change its own permission.
+:::
+
 ### Importing employees
 
 OfficeLife lets you upload import employees. Right now, we support the upload of a CSV file.
