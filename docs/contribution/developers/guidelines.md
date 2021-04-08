@@ -37,3 +37,15 @@ But most of the time, refactors are a waste of time that don't bring value to th
 ### Do not use fancy new tech if you can avoid it
 
 We believe that boring technologies make great softwares. Boring technologies are battle tested. Boring technologies are predictable. They are familiar to most people.
+
+## General information
+
+### Timezones and time management
+
+Like every software, at some point, we need to display dates. As a software that serves distributed teams, chances are users will be from all around the world - therefore we need to take timezones into account every time we display dates to the users.
+
+::: warning
+Dates currently, and always always should, be stored in UTC. The worst you can do in life as a software engineer, is to store dates in another timezone. UTC, always.
+:::
+
+Every date that is displayed to users, should pass through the `DateHelper` helper.
