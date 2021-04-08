@@ -51,7 +51,7 @@ The final mandatory information is the role this employee will have. Refer to th
 
 You can change the role/permission of an employee at anytime, and changes take effect immediately.
 
-To change an employee role, head over to Adminland > Add/remove existing employees  > View all employees, then select the Change permission link.
+To update the role of an employee, head over to Adminland > Add/remove existing employees  > View all employees, then click on the `Change permission` link.
 
 ![](./img/adminland_employees_permission_link.png)
 
