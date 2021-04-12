@@ -40,10 +40,6 @@ module.exports = {
             text: 'Domains',
             items: [
               {
-                text: 'Recruit',
-                link: '/documentation/'
-              },
-              {
                 text: 'Manage',
                 link: '/documentation/manage/overview'
               },
@@ -53,11 +49,11 @@ module.exports = {
               },
               {
                 text: 'Communicate',
-                link: '/documentation/'
+                link: '/documentation/communicate/recent-ships'
               },
               {
                 text: 'Grow',
-                link: '/documentation/'
+                link: '/documentation/grow/e-coffee'
               }
             ]
           }
