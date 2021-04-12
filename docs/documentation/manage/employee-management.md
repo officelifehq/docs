@@ -344,6 +344,35 @@ An employee can indicate that (s)he will work from home by checking the checkbox
 
 ![](./img/employee_work_from_home.png)
 
+## Employee morale
+
+### Overview
+
+As humans, we have good days and bad days. A lot of factors affect how we feel, and ultimately, how we perform at work. OfficeLife wants to help take the pulse of the teams, while respecting the privacy of employees.
+
+Employee morale will appear at several places throuhgout OfficeLife:
+
+* On the employee profile page itself,
+* On the team page if the employee belongs to a team,
+* On the employee dashboard,
+* On the company page.
+
+### On the employee dashboard
+
+An employee can indicate how (s)he feels every day, on the dashboard.
+
+![](./img/employee_morale_dashboard.png)
+
+:::tip
+* Only the employee can give information on his/her morale. No one else, even with the Administrator role.
+* Employees can indicate their morale only once per day. This is reset at midnight every day. Once they have voted, they will have to wait the next day to vote again.
+:::
+
+### On the team page
+
+If the employee belongs to a team, his/her morale will be displayed on the team page. [Read more about it on the team documentation.](/documentation/manage/team-management)
+
+
 ## Skills
 
 ### Overview
