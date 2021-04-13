@@ -56,6 +56,17 @@ To upload or change the logo of the company, go to Adminland > General, and simp
 * The logo will be seen by anyone in the company.
 :::
 
+### Defining the company’s founded date
+
+The company's date of creation is displayed on the Company tab in your account. It's a nice detail so everyone knows how resilient the company is (or young, in that case). You can change this date in Adminland.
+
+Go to Adminland section, under general, and indicate when the company has been created.
+
+::: tip Rules
+* Only someone with the administrator role can change this date.
+* You only have to indicate the year the company has been founded.
+:::
+
 ## Account cancellation
 
 You are in complete control of your data. You can cancel the company's account at anytime.
