@@ -166,6 +166,7 @@ Once an employee is removed from OfficeLife, everything that is linked to this e
 * An employee can't delete himself, even with enough permissions (for instance, an administrator can't delete himself).
 :::
 
+
 ## Profile page
 
 Every Employee, linked to a User or not, has a profile page. This page is public inside the company - meaning everyone in the company can see most of the information on this page (unless those who are not shown by default). All of the data entered by an employee on most screens in OfficeLife appear on the profile page of the employee. Also, every action done on an employee appears on the Employee log.
@@ -191,6 +192,12 @@ If this date is set in the future, that means the employee will soon join the co
 It’s interesting to know when a colleague has a work anniversary. It’s a date to celebrate. OfficeLife will warn employees when a work anniversary will occur in the upcoming week. This information is displayed on the team’s dashboard for everyone to see.
 
 ![](./img/employee_dashboard_team_work_anniversary.png)
+
+## Employee positions
+
+### Overview
+
+A position is the job that the employee does. It can be "Software Engineer" or "CEO".
 
 ## Employee statuses
 

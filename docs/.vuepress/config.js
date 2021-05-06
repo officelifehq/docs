@@ -112,6 +112,7 @@ function getContributionSidebar() {
       title: '👻 Core contributors',
       collapsable: false,
       children: [
+        ['core-contributors/installation', 'Installation'],
         ['core-contributors/deployment-process', 'Deployment'],
       ]
     }
@@ -136,7 +137,8 @@ function getDocumentationSidebar() {
         ['manage/overview', 'Overview'],
         ['manage/employee-management', 'Employee management'],
         ['manage/team-management', 'Team management'],
-        ['manage/company-management', 'Company management']
+        ['manage/company-management', 'Company management'],
+        ['manage/group-management', 'Group management'],
       ]
     },
     {

@@ -5,7 +5,7 @@
 OfficeLife comes in two flavors:
 
 * as a SAAS, meaning that you need to pay a monthly fee to access the service, on an instance that we host ourselves. We take care of everything, from maintenance to upgrading the instance,
-* as a software that you can download and install yourself. You will have to maintain this instance yourself. However it’s free, so ¯\_(ツ)_/¯
+* as a software that you can download and install yourself. You will have to maintain this instance yourself. However it’s free, so `¯\_(ツ)_/¯`
 
 Below are all the steps you need to follow to install an instance of OfficeLife yourself.
 
@@ -17,9 +17,8 @@ This page requires a deep technical knowledge to understand it. If you are unsur
 
 OfficeLife is a Laravel-based application and requires the following technologies to run efficiently.
 
-* PHP 7.4 or higher,
+* PHP 8 or higher,
 * a set of extensions:
-  * PHP >= 7.3
   * BCMath PHP Extension
   * Ctype PHP Extension
   * Fileinfo PHP Extension
@@ -42,6 +41,10 @@ You should configure your web server's document / web root to be the `public` di
 
 You may need to configure some permissions. Directories within the `storage` and the `bootstrap/cache` directories should be writable by your web server or OfficeLife will not run.
 
+## Setup OfficeLife for development purposes
+
+If you want to install OfficeLife locally to support the development, you can follow the instructions on [the developer page](/contribution/core-contributors/installation.md).
+
 ## Installation on Heroku
 
 Officelife can be deployed on Heroku using the button below:
@@ -61,6 +64,7 @@ php artisan schedule:run
 ```
 
 You are now able to open the application and register a new user.
+
 
 ## Populate account with fake data
 
