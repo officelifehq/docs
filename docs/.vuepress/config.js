@@ -155,7 +155,8 @@ function getDocumentationSidebar() {
       title: '🛰 Communicate',
       collapsable: false,
       children: [
-        ['communicate/recent-ships', 'Recent ships']
+        ['communicate/recent-ships', 'Recent ships'],
+        ['communicate/worklogs', 'Worklogs'],
       ]
     },
     {
