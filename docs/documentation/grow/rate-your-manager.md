@@ -6,46 +6,53 @@ Being a manager is a responsability towards the company that employs you and esp
 
 Universities in some countries ask students to rate their teachers. This rating guides the career path and the compensation of those teachers. Why couldn’t we use this system in companies too?
 
-Companies give great powers to managers. They are paid to manage employees, but in return employees have the right to expect to be properly managed. In some companies where politics play a big part, bad managers can still be highly considered by their own managers if they know how to hide fact. The only way to resurface bad behaviours is to frequently ask employees how their manager perform at this task, and make this information visible in the organization to some people with the right access. Transparency should be a core value of every company and OfficeLife wants to help here.
+Companies give great powers to managers. They are paid to manage employees, but in return employees have the right to expect to be properly managed. In some companies where politics play a big part, bad managers can still be highly considered by their own managers if they know how to hide fact. The only way to resurface bad behaviours is to frequently ask employees how their manager perform at this task, and make this information visible in the organization to some people with the right access. Transparency should be a core value of every company and OfficeLife wants to help those companies enforce this practice.
 
-## Asking for feedback
+The idea is very simple:
 
-On the last day of every month, employees who have managers will automatically be asked to review their managers. The poll will be active for 3 working days and will automatically disappear from employees' dashboard regardless of one of those two scenarios:
+- Once per month, employees will be asked to anonymously rate their managers.
+- Managers (or HR/administrators) will be able to know the results of these polls, so they can improve how they are as managers.
+- It also gives the managers of these managers an overview of how their employees perform in their roles.
 
-* all employees have answered,
+## Asking employees for feedback
+
+On the last day of every month, every employee who has a manager will automatically be asked to review their managers. The poll will be active for 3 working days and will automatically disappear from employees' dashboard after one of these two conditions are met:
+
+* all employees for this manager have answered,
 * we've reached the 3 working days limit.
 
-IMG HERE
+![image of the rate manager poll](./img/dashboard_rate_manager_poll.png)
 
-This is basically a simple question with three possible answers: Have you appreciated working with your manager this month?
+A poll is basically one question, `Have you appreciated working with your manager this month?` with three possible answers:
 
-And the possible answers are: `Absolutely`, `It’s okay` and `Not at all`.
+* `Absolutely`,
+* `It’s okay`
+* and `Not at all`.
 
-Employees can also add a comment if they want.
+Once the employee clicks on one of the buttons, (s)he can add a comment if (s)he wants.
 
-IMG HERE
+![image of the rate manager comment](./img/dashboard_rate_manager_comment.png)
 
-Everything is completely anonymous. No one, not even HR or administrators, will be able to know who said what. We'll just know that someone voted and added a comment.
-
-Once an answer has been submitted by an employee, it can’t be changed by anyone, not even by the employee.
-
-IMG HERE
+::: tip Rules
+* All poll entries and all comments are completely anonymous. No one, not even HR or administrators, will be able to know who said what.
+* Once a comment has been submitted by an employee, it can’t be changed by anyone, not even by the employee.
+* Employees can't see the entries or comments they've previously submitted.
+:::
 
 ## Past surveys
 
-As soon as a survey ends, results will be displayed
+Once a survey has been made, OfficeLife gives the results available to managers.
 
-* in the Employee profile’s page of the manager, even if (s)he stops being a manager,
-* in the HR tab on the Dashboard, so HR can have an overview of how managers are doing, generally.
+Results are displayed in the Employee profile’s page of the manager, even if (s)he stops being a manager, under the Performance tab.
 
-IMG HERE
+![](./img/employee_rate_manager_results.png)
 
-Past surveys will always show
+Past surveys show
 
 * the number and names of employees that the manager managed at the time,
 * the overall rating.
 
-IMG HERE
+![](./img/employee_rate_manager_details.png)
 
 Past surveys are only visible by:
 * the manager who was targeted by the surveys,
