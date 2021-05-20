@@ -78,4 +78,10 @@ The employee can see his/her own answer on this view, and can edit the answer or
 
 ### On the Company tab
 
-Employees can see the list of all questions that have ever been submitted in the Company tab.
+Employees can see the list of all questions that have ever been submitted in the Company tab. The questions are listed by date of creation, newer at the top. The first question that appears at the top is the current active question.
+
+![company questions](./img/company_get_to_know_colleagues_list.png)
+
+If you click on a question, you will find a detail of the question, along with all the answers already submitted by employees. You can also use the Team selector at the top of the screen to view answers from a specific team.
+
+![company detail](./img/company_get_to_know_colleagues_detail.png)

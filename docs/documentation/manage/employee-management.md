@@ -343,13 +343,19 @@ Very important note: deleting a rate won’t affect past timesheets and project 
 
 ### Overview
 
-Working from home becomes more and more common nowadays. When working from home in a non-remote company, letting your colleagues know that you are not physically here is really important. OfficeLife facilitates this entire process by giving everyone the right amount of information about who works from home.
+Working from home becomes more and more common nowadays. When working from home in a non-remote company, letting your colleagues know that you are not physically here is really important. OfficeLife facilitates this entire process.
 
 ### How to indicate that we work from home
 
 An employee can indicate that (s)he will work from home by checking the checkbox on the Employee dashboard.
 
 ![](./img/employee_work_from_home.png)
+
+### On the dashboard's team page
+
+Employees who work from home who are part of a team can see if other team members are working from home straight from the team's dashboard.
+
+![](./img/dashboard_team_work_from_home.png)
 
 ## Employee morale
 
