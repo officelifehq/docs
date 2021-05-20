@@ -63,9 +63,10 @@ OfficeLife is structured around 5 **domains**. Each domain represents a step in 
 
 ### Communicate
 
-* Worklogs
+* Work logs
 * Recent ships
 * Team and company news
+* Get to know your colleagues
 
 ### Grow
 
@@ -117,7 +118,7 @@ OfficeLife comes in two flavors: open source and hosted.
 
 ### Pricing
 
-While the open-source version is free, the hosted version is supported by subscriptions. You pay a fair amount of money each month, and in exchange, you have access to your own OfficeLife’s account. The price is fixed, USD 100 per month (or USD 1000 per year — a good discount!), no matter the number of employees, users or company size. We don't like those other services that charge a small amount of money per user, like $2 per user – you think it’s cheap, but if your company has 200 employees, you end up with USD 400 to pay each month, which is insane.
+While the open-source version is free, the hosted version is supported by subscriptions. You pay a fair amount of money each month, and in exchange, you have access to your own OfficeLife’s account.
 
 Also, we don't have any hidden fees. You can upgrade or downgrade at any time.
 

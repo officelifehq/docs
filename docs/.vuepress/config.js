@@ -156,7 +156,8 @@ function getDocumentationSidebar() {
       collapsable: false,
       children: [
         ['communicate/recent-ships', 'Recent ships'],
-        ['communicate/worklogs', 'Worklogs'],
+        ['communicate/worklogs', 'Work logs'],
+        ['communicate/get-to-know-your-colleagues', 'Get to know your colleagues'],
       ]
     },
     {

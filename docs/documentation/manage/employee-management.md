@@ -146,7 +146,7 @@ Contrary to the deletion process, locking will not erase any data we have on the
 * If the employee had [the accountant role](/expenses/#who-can-manage-expenses), this role will automatically be removed.
 * [Current polls](/rate-your-manager) about the employee (if this employee was a manager) will be stopped immediately.
 * (S)He will still appear in the list of employees inside Adminland.
-* All content written by the employee will still be available for everyone to see (worklogs, answers to questions,…).
+* All content written by the employee will still be available for everyone to see (work logs, answers to questions,…).
 * The employee’s profile will still be accessible through direct links.
 :::
 
@@ -159,7 +159,7 @@ There are two ways to delete an employee:
 * either by choosing the employee on the list of employees in Adminland,
 * or by going through the employee's profile and select the Delete option in the upper right menu.
 
-Once an employee is removed from OfficeLife, everything that is linked to this employee is also removed. That means, for instance, if the employee was a team leader, the team won’t have a team lead anymore. All answers will be removed. All worklogs will also be removed. And so on.
+Once an employee is removed from OfficeLife, everything that is linked to this employee is also removed. That means, for instance, if the employee was a team leader, the team won’t have a team lead anymore. All answers will be removed. All work logs will also be removed. And so on.
 
 ::: tip Rules
 * Only employees with the HR or administrator roles can delete an employee.
@@ -377,7 +377,7 @@ An employee can indicate how (s)he feels every day, on the dashboard.
 
 ### On the team page
 
-If the employee belongs to a team, his/her morale will be displayed on the team page. [Read more about it on the team documentation.](/documentation/manage/team-management)
+If the employee belongs to a team, his/her morale will be displayed on the team page. [Read more about it on the team documentation.](/documentation/manage/team-management.html#team-morale)
 
 
 ## Skills
