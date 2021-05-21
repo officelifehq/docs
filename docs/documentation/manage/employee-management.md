@@ -363,6 +363,10 @@ On the employee's profile page, we can also see if an employee currently works f
 
 ![](./img/employee_work_from_home-.png)
 
+You can also consult the history of work from home by clicking on the View all button. This gives the complete listing of every time the employee has indicated (s)he has worked from home in the past.
+
+![](./img/employee_work_from_home-detail.png)
+
 ## Employee morale
 
 ### Overview
