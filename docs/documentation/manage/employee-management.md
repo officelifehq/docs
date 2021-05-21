@@ -146,7 +146,7 @@ Contrary to the deletion process, locking will not erase any data we have on the
 * If the employee had [the accountant role](/expenses/#who-can-manage-expenses), this role will automatically be removed.
 * [Current polls](/rate-your-manager) about the employee (if this employee was a manager) will be stopped immediately.
 * (S)He will still appear in the list of employees inside Adminland.
-* All content written by the employee will still be available for everyone to see (worklogs, answers to questions,…).
+* All content written by the employee will still be available for everyone to see (work logs, answers to questions,…).
 * The employee’s profile will still be accessible through direct links.
 :::
 
@@ -159,7 +159,7 @@ There are two ways to delete an employee:
 * either by choosing the employee on the list of employees in Adminland,
 * or by going through the employee's profile and select the Delete option in the upper right menu.
 
-Once an employee is removed from OfficeLife, everything that is linked to this employee is also removed. That means, for instance, if the employee was a team leader, the team won’t have a team lead anymore. All answers will be removed. All worklogs will also be removed. And so on.
+Once an employee is removed from OfficeLife, everything that is linked to this employee is also removed. That means, for instance, if the employee was a team leader, the team won’t have a team lead anymore. All answers will be removed. All work logs will also be removed. And so on.
 
 ::: tip Rules
 * Only employees with the HR or administrator roles can delete an employee.
@@ -343,13 +343,29 @@ Very important note: deleting a rate won’t affect past timesheets and project 
 
 ### Overview
 
-Working from home becomes more and more common nowadays. When working from home in a non-remote company, letting your colleagues know that you are not physically here is really important. OfficeLife facilitates this entire process by giving everyone the right amount of information about who works from home.
+Working from home becomes more and more common nowadays. When working from home in a non-remote company, letting your colleagues know that you are not physically here is really important. OfficeLife facilitates this entire process.
 
 ### How to indicate that we work from home
 
 An employee can indicate that (s)he will work from home by checking the checkbox on the Employee dashboard.
 
 ![](./img/employee_work_from_home.png)
+
+### On the dashboard's team page
+
+Employees who are part of a team can see if other team members are working from home straight from the team's dashboard.
+
+![](./img/dashboard_team_work_from_home.png)
+
+### On the employee's profile page
+
+On the employee's profile page, we can also see if an employee currently works from home on the day or not.
+
+![](./img/employee_work_from_home-.png)
+
+You can also consult the history of work from home by clicking on the View all button. This gives the complete listing of every time the employee has indicated (s)he has worked from home in the past.
+
+![](./img/employee_work_from_home-detail.png)
 
 ## Employee morale
 
@@ -377,7 +393,7 @@ An employee can indicate how (s)he feels every day, on the dashboard.
 
 ### On the team page
 
-If the employee belongs to a team, his/her morale will be displayed on the team page. [Read more about it on the team documentation.](/documentation/manage/team-management)
+If the employee belongs to a team, his/her morale will be displayed on the team page. [Read more about it on the team documentation.](/documentation/manage/team-management.html#team-morale)
 
 
 ## Skills

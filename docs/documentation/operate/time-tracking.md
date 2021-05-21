@@ -2,7 +2,7 @@
 
 ## Overview
 
-Time tracking is an essential piece of information for most companies. It gives the ability to know where the focus of an employee, a team or the entire company currently is. It also helps to understand the financial health of a project, especially if those projects have a fixed budget. Finally, and last but not least, if we combine time tracking with the worklogs feature, and/or the employee morale, this will give us unique insights on how the employee performs, or how (s)he struggles so we can help him.
+Time tracking is an essential piece of information for most companies. It gives the ability to know where the focus of an employee, a team or the entire company currently is. It also helps to understand the financial health of a project, especially if those projects have a fixed budget. Finally, and last but not least, if we combine time tracking with the work logs feature, and/or the employee morale, this will give us unique insights on how the employee performs, or how (s)he struggles so we can help him.
 
 ## How does time tracking work in OfficeLife
 
