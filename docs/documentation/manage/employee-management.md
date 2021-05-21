@@ -353,9 +353,15 @@ An employee can indicate that (s)he will work from home by checking the checkbox
 
 ### On the dashboard's team page
 
-Employees who work from home who are part of a team can see if other team members are working from home straight from the team's dashboard.
+Employees who are part of a team can see if other team members are working from home straight from the team's dashboard.
 
 ![](./img/dashboard_team_work_from_home.png)
+
+### On the employee's profile page
+
+On the employee's profile page, we can also see if an employee currently works from home on the day or not.
+
+![](./img/employee_work_from_home-.png)
 
 ## Employee morale
 
