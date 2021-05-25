@@ -128,6 +128,7 @@ function getDocumentationSidebar() {
         'introduction',
         'installation',
         'core-concepts',
+        'setup-guide',
       ]
     },
     {
