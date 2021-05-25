@@ -129,6 +129,7 @@ function getDocumentationSidebar() {
         'installation',
         'core-concepts',
         'setup-guide',
+        'officelife-beta',
       ]
     },
     {
