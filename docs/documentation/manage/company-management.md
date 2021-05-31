@@ -32,7 +32,7 @@ But there is another way! It's possible to give a code to your employees, and yo
 
 ![join a company](./img/adminland_general_join_company.png)
 
-It's super simple and convenient.
+It's simple and convenient.
 
 The code is unique per company, and hard enough to guess so your privacy is protected. We might add additional checks in the future to prevent abusing this system.
 
