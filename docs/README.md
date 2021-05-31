@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: ./docs/img/logo@2x.png
+heroImage: /logo@2x.png
 actionText: Discover the wonders of OfficeLife →
-actionLink: /basic/
+actionLink: ./documentation/introduction.md
 footer: You are one step away to be happier at work.
 ---

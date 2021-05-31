@@ -6,7 +6,7 @@
 
 Every company has some specific details: name, currency used, timezone.
 
-OfficeLife lets you customize some aspects of your company, without giving too many settings to play with. We believe that settings should be avoided as much as possible. But some things... well, some things should be configurable.
+OfficeLife lets you customize some aspects of your company, without giving too many settings to play with. We believe that settings should be avoided as much as possible. But some things should be configurable.
 
 ### Update company’s name
 
@@ -20,6 +20,21 @@ That being said, updating the name is really easy. Click on the Rename button an
 * Only someone with the administrator role can update the company name.
 * The name of the company should be no longer than 255 characters.
 :::
+
+### Code to invite employees
+
+There are several ways for employees to be invited to your account:
+
+- [Add an employee manually](/documentation/manage/employee-management.html#add-a-new-employee),
+- [Import employees](/documentation/manage/employee-management.html#importing-employees),
+
+But there is another way! It's possible to give a code to your employees, and your employees can use this code themselves so they can join your company once they've created an account.
+
+![join a company](./img/adminland_general_join_company.png)
+
+It's simple and convenient.
+
+The code is unique per company, and hard enough to guess so your privacy is protected. We might add additional checks in the future to prevent abusing this system.
 
 ## Currency
 

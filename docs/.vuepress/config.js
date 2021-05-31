@@ -10,6 +10,10 @@ module.exports = {
     // docsDir: 'docs',
     editLinks: true,
     sidebarDepth: 3,
+    algolia: {
+        apiKey: '<API_KEY>',
+        indexName: '<INDEX_NAME>'
+    },
     editLinkText: 'Found a typo? An error? Edit this page',
     nav: [
       {
