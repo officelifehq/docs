@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/officelifehq/officelife-documentation#readme",
   "dependencies": {
+    "@ubclaunchpad/vuepress-plugin-fathom": "https://github.com/ubclaunchpad/vuepress-plugin-fathom",
     "global": "^4.3.2",
     "vuepress": "^1.2.0"
   },
