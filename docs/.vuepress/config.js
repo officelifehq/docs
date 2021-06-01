@@ -94,8 +94,8 @@ module.exports = {
   plugins: [
     '@vuepress/active-header-links',
     '@vuepress/medium-zoom',
-    ['@ubclaunchpad/vuepress-plugin-fathom', {
-      'siteID': 'BJNCSYOY',
+    ['@ubclaunchpad/fathom', {
+      'siteID': 'KRXRUSRB',
     }]
   ],
 }
