@@ -10,6 +10,7 @@ This documentation is powered by [VuePress](https://vuepress.vuejs.org/), a stat
 git clone git@github.com:officelifehq/docs.git
 cd docs
 yarn
+npm install
 ```
 
 ## How to use locally
