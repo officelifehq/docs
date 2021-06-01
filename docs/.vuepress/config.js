@@ -84,12 +84,16 @@ module.exports = {
     sidebar: {
       '/contribution/': getContributionSidebar(),
       '/documentation/': getDocumentationSidebar(),
-    },
-    plugins: [
-      '@vuepress/active-header-links',
-      '@vuepress/medium-zoom'
-    ]
-  }
+    }
+  },
+
+  plugins: [
+    '@vuepress/active-header-links',
+    '@vuepress/medium-zoom',
+    ['@ubclaunchpad/vuepress-plugin-fathom', {
+      'siteID': 'BJNCSYOY',
+    }]
+  ],
 }
 
 function getContributionSidebar() {
