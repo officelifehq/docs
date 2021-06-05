@@ -11,8 +11,8 @@ module.exports = {
     editLinks: true,
     sidebarDepth: 3,
     algolia: {
-        apiKey: '<API_KEY>',
-        indexName: '<INDEX_NAME>'
+        apiKey: '0536f69ce84fc0065d2bcb702ed17ab4',
+        indexName: 'officelife'
     },
     editLinkText: 'Found a typo? An error? Edit this page',
     nav: [
