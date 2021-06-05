@@ -83,3 +83,27 @@ A team can have multiple links, called "useful links". Those links are public in
 * A link has a type. Right now we support only Slack, emails and external urls.
 * When creating a link, the label is optional, whereas the URL itself is mandatory. If a label is added, this will be the text that will displayed to the user for the given link. Otherwise, the URl will be displayed instead.
 :::
+
+## Team morale
+
+OfficeLife lets employees record how they feel every day. You can read more about the morale on [the Employee documentation page](/documentation/manage/employee-management#employee-morale).
+
+On the team page, it's nice to know how all the different team members feel, in general and on average. This will let everyone knows if people feel awesome or bad on a given day.
+
+For privacy reasons, it's important to know that we will never display the morale individually. That means on the team page, we will only know how everyone feels, and it will be impossible to know who answered what.
+
+If we have enough data, every team page will show:
+- how employees felt yesterday,
+- how employees felt last week,
+- how employees felt last month.
+
+The "happiness" of an employee is represented by a percentage:
+- 70-100% means the employee is extremely happy,
+- 30-70% means the employee is alright,
+- below 30% means the employee is clearly unhappy somehow.
+
+This information is public throughout the entire company.
+
+Data is calculated every night at midnight. If we don't have enough data, the `🚫` will be used instead of the percent representing the morale.
+
+![team morale](./img/team_morale.png)

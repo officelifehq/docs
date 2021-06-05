@@ -10,6 +10,10 @@ module.exports = {
     // docsDir: 'docs',
     editLinks: true,
     sidebarDepth: 3,
+    algolia: {
+        apiKey: '<API_KEY>',
+        indexName: '<INDEX_NAME>'
+    },
     editLinkText: 'Found a typo? An error? Edit this page',
     nav: [
       {
@@ -40,10 +44,6 @@ module.exports = {
             text: 'Domains',
             items: [
               {
-                text: 'Recruit',
-                link: '/documentation/'
-              },
-              {
                 text: 'Manage',
                 link: '/documentation/manage/overview'
               },
@@ -53,11 +53,11 @@ module.exports = {
               },
               {
                 text: 'Communicate',
-                link: '/documentation/'
+                link: '/documentation/communicate/recent-ships'
               },
               {
                 text: 'Grow',
-                link: '/documentation/'
+                link: '/documentation/grow/e-coffee'
               }
             ]
           }
@@ -88,12 +88,16 @@ module.exports = {
     sidebar: {
       '/contribution/': getContributionSidebar(),
       '/documentation/': getDocumentationSidebar(),
-    },
-    plugins: [
-      '@vuepress/active-header-links',
-      '@vuepress/medium-zoom'
-    ]
-  }
+    }
+  },
+
+  plugins: [
+    '@vuepress/active-header-links',
+    '@vuepress/medium-zoom',
+    ['@ubclaunchpad/fathom', {
+      'siteID': 'KRXRUSRB',
+    }]
+  ],
 }
 
 function getContributionSidebar() {
@@ -116,6 +120,7 @@ function getContributionSidebar() {
       title: '👻 Core contributors',
       collapsable: false,
       children: [
+        ['core-contributors/installation', 'Installation'],
         ['core-contributors/deployment-process', 'Deployment'],
       ]
     }
@@ -131,6 +136,8 @@ function getDocumentationSidebar() {
         'introduction',
         'installation',
         'core-concepts',
+        'setup-guide',
+        'officelife-beta',
       ]
     },
     {
@@ -140,7 +147,8 @@ function getDocumentationSidebar() {
         ['manage/overview', 'Overview'],
         ['manage/employee-management', 'Employee management'],
         ['manage/team-management', 'Team management'],
-        ['manage/company-management', 'Company management']
+        ['manage/company-management', 'Company management'],
+        ['manage/group-management', 'Group management'],
       ]
     },
     {
@@ -157,7 +165,9 @@ function getDocumentationSidebar() {
       title: '🛰 Communicate',
       collapsable: false,
       children: [
-        ['communicate/recent-ships', 'Recent ships']
+        ['communicate/recent-ships', 'Recent ships'],
+        ['communicate/worklogs', 'Work logs'],
+        ['communicate/get-to-know-your-colleagues', 'Get to know your colleagues'],
       ]
     },
     {

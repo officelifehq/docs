@@ -47,6 +47,24 @@ The final mandatory information is the role this employee will have. Refer to th
 * The first name, last name and email address fields are limited to 255 characters.
 :::
 
+### Changing employee role (permission)
+
+You can change the role/permission of an employee at anytime, and changes take effect immediately.
+
+To update the role of an employee, head over to Adminland > Add/remove existing employees  > View all employees, then click on the `Change permission` link.
+
+![](./img/adminland_employees_permission_link.png)
+
+This will open a new window that lets you choose a new permission.
+
+![](./img/adminland_employees_permission.png)
+
+::: tip Rules
+* Only employees with the HR or administrator roles can edit an employee's role.
+* Changes are effective immediately.
+* The logged user can't change its own permission.
+:::
+
 ### Importing employees
 
 OfficeLife lets you upload import employees. Right now, we support the upload of a CSV file.
@@ -128,7 +146,7 @@ Contrary to the deletion process, locking will not erase any data we have on the
 * If the employee had [the accountant role](/expenses/#who-can-manage-expenses), this role will automatically be removed.
 * [Current polls](/rate-your-manager) about the employee (if this employee was a manager) will be stopped immediately.
 * (S)He will still appear in the list of employees inside Adminland.
-* All content written by the employee will still be available for everyone to see (worklogs, answers to questions,…).
+* All content written by the employee will still be available for everyone to see (work logs, answers to questions,…).
 * The employee’s profile will still be accessible through direct links.
 :::
 
@@ -141,12 +159,13 @@ There are two ways to delete an employee:
 * either by choosing the employee on the list of employees in Adminland,
 * or by going through the employee's profile and select the Delete option in the upper right menu.
 
-Once an employee is removed from OfficeLife, everything that is linked to this employee is also removed. That means, for instance, if the employee was a team leader, the team won’t have a team lead anymore. All answers will be removed. All worklogs will also be removed. And so on.
+Once an employee is removed from OfficeLife, everything that is linked to this employee is also removed. That means, for instance, if the employee was a team leader, the team won’t have a team lead anymore. All answers will be removed. All work logs will also be removed. And so on.
 
 ::: tip Rules
 * Only employees with the HR or administrator roles can delete an employee.
 * An employee can't delete himself, even with enough permissions (for instance, an administrator can't delete himself).
 :::
+
 
 ## Profile page
 
@@ -173,6 +192,12 @@ If this date is set in the future, that means the employee will soon join the co
 It’s interesting to know when a colleague has a work anniversary. It’s a date to celebrate. OfficeLife will warn employees when a work anniversary will occur in the upcoming week. This information is displayed on the team’s dashboard for everyone to see.
 
 ![](./img/employee_dashboard_team_work_anniversary.png)
+
+## Employee positions
+
+### Overview
+
+A position is the job that the employee does. It can be "Software Engineer" or "CEO".
 
 ## Employee statuses
 
@@ -318,13 +343,58 @@ Very important note: deleting a rate won’t affect past timesheets and project 
 
 ### Overview
 
-Working from home becomes more and more common nowadays. When working from home in a non-remote company, letting your colleagues know that you are not physically here is really important. OfficeLife facilitates this entire process by giving everyone the right amount of information about who works from home.
+Working from home becomes more and more common nowadays. When working from home in a non-remote company, letting your colleagues know that you are not physically here is really important. OfficeLife facilitates this entire process.
 
 ### How to indicate that we work from home
 
 An employee can indicate that (s)he will work from home by checking the checkbox on the Employee dashboard.
 
 ![](./img/employee_work_from_home.png)
+
+### On the dashboard's team page
+
+Employees who are part of a team can see if other team members are working from home straight from the team's dashboard.
+
+![](./img/dashboard_team_work_from_home.png)
+
+### On the employee's profile page
+
+On the employee's profile page, we can also see if an employee currently works from home on the day or not.
+
+![](./img/employee_work_from_home-.png)
+
+You can also consult the history of work from home by clicking on the View all button. This gives the complete listing of every time the employee has indicated (s)he has worked from home in the past.
+
+![](./img/employee_work_from_home-detail.png)
+
+## Employee morale
+
+### Overview
+
+As humans, we have good days and bad days. A lot of factors affect how we feel, and ultimately, how we perform at work. OfficeLife wants to help take the pulse of the teams, while respecting the privacy of employees.
+
+Employee morale will appear at several places throuhgout OfficeLife:
+
+* On the employee profile page itself,
+* On the team page if the employee belongs to a team,
+* On the employee dashboard,
+* On the company page.
+
+### On the employee dashboard
+
+An employee can indicate how (s)he feels every day, on the dashboard.
+
+![](./img/employee_morale_dashboard.png)
+
+:::tip
+* Only the employee can give information on his/her morale. No one else, even with the Administrator role.
+* Employees can indicate their morale only once per day. This is reset at midnight every day. Once they have voted, they will have to wait the next day to vote again.
+:::
+
+### On the team page
+
+If the employee belongs to a team, his/her morale will be displayed on the team page. [Read more about it on the team documentation.](/documentation/manage/team-management.html#team-morale)
+
 
 ## Skills
 
