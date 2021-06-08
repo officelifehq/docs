@@ -1,8 +1,18 @@
 # Deployment process
 
+## Overview
+
+OfficeLife is deployed automatically on each commit in the `main` branch in two environments:
+
+* https://beta.officelife.io
+* https://demo.officelife.io
+
+We plan to disable this in the future to control which environment has which version, but for now, every single commit is pushed to production instantly.
+
 ## Create a release
 
 OfficeLife uses [semantic-release](https://semantic-release.gitbook.io/semantic-release/) to manage releases.
+
 It allows to create new releases based on the history of modifications since last release, and create a patch/minor/major release depending on some rules.
 
 There are two ways to create a new release: create a pre-release or an official release.
@@ -17,12 +27,11 @@ You can create a pre-release by pushing the main branch to one of these breanche
 
 This will create a new GitHub pre-release.
 
-
 ### Create an official release
 
-To create an official release (on main branch), go to [`Actions` > `Release`](https://github.com/officelifehq/officelife/actions/workflows/release.yml), then run the workflow:
+To create an official release (on main branch), go to [`Actions` > `Release`](https://github.com/officelifehq/officelife/actions/workflows/release.yml), then run the workflow against the main branch, as shown below:
 
-![Run workflow](run-release-workflow.png)
+![Run workflow](./img/release-execute.png)
 
 
 ## Steps
