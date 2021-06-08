@@ -122,6 +122,7 @@ function getContributionSidebar() {
       children: [
         ['core-contributors/installation', 'Installation'],
         ['core-contributors/deployment-process', 'Deployment'],
+        ['core-contributors/processes', 'Processes'],
       ]
     }
   ]
