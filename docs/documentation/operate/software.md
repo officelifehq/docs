@@ -57,13 +57,3 @@ If you agree to this, for sure the number of remaining seats will be negative.
 Once assigned, the software will appear on the profile page of the affected employee, as shown below.
 
 ![employee](./img/software-employee.png)
-
-### Hardware lent to an employee
-
-Many items can be lent to an employee. Once an item is lent, it will appear on the employee's profile page.
-
-![items on the employee page](./img/hardware_list_employee.png)
-
-::: tip Rules
-* Only the employee who views his profile, or employees with the HR or administrator roles, can view the list of items lenan employee's profile page.
-:::
