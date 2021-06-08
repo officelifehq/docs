@@ -2,7 +2,7 @@
 
 ## Overview
 
-OfficeLife becomes more complex every day. This page documents how we, the OfficeLife team, work.
+OfficeLife becomes more complex every day. This page documents how we, the OfficeLife team, work and which tools we use.
 
 ## Our stack
 
