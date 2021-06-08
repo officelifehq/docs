@@ -159,6 +159,7 @@ function getDocumentationSidebar() {
         ['operate/time-tracking', 'Time tracking'],
         ['operate/expenses', 'Expenses'],
         ['operate/hardware', 'Hardware management'],
+        ['operate/software', 'Software management'],
       ]
     },
     {
