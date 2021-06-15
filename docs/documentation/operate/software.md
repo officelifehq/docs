@@ -69,5 +69,5 @@ To associate a file with a software, you need to create the software first. Then
 ![files](./img/software-file.png)
 
 ::: tip Rules
-* There is no restriction on the size of the file you can upload. However, please, do not store huge files (over 1Gb). OfficeLife is not meant for that.
+* There is no restriction regarding the size of the files you can upload. However, please, do not store huge files (over 1Gb). OfficeLife is not meant for that and we will ask you politely to remove these files in case of abuse.
 :::
