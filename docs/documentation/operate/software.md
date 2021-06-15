@@ -57,3 +57,17 @@ If you agree to this, for sure the number of remaining seats will be negative.
 Once assigned, the software will appear on the profile page of the affected employee, as shown below.
 
 ![employee](./img/software-employee.png)
+
+### Add a file
+
+Sometimes it's helpful to store files in the context of a software. You could for instance store an ISO file that is linked to the software, and OfficeLife could host this image for you.
+
+There are some interesting discussions about this feature [here](https://github.com/officelifehq/officelife/discussions/1062).
+
+To associate a file with a software, you need to create the software first. Then, on the software details page, you have access to a section that lets you upload a file.
+
+![files](./img/software-file.png)
+
+::: tip Rules
+* There is no restriction on the size of the file you can upload. However, please, do not store huge files (over 1Gb). OfficeLife is not meant for that.
+:::
