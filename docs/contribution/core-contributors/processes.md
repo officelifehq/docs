@@ -42,3 +42,12 @@ Search inside the documentation website is done with Algolia, on the Free plan (
 All support emails are sent from `support@officelife.io`.
 
 Support is done with the tool called Freshdesks ([Freshdesk login panel](https://officelifehq.freshdesk.com/a/dashboard/default)).
+
+### Analytics
+
+We strongly believe in the importance of privacy, especially considering the nature of the tool. Because we deeply respect our users, we have chosen to use Fathom as our analytics.
+
+Fathom completely respects our privacy and gives us some overview on the traffic we get, and how users use our platform.
+
+* [beta.officelife.io dashboard](https://app.usefathom.com/share/bjncsyoy/beta.officelife.io)
+* [demo.officelife.io dashboard](https://app.usefathom.com/share/tqjdytyu/demo.officelife.io)
