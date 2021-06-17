@@ -80,7 +80,11 @@ In Adminland, under Manage Employees > Import, you can upload the CSV file.
 
 It's really important to understand that the CSV file needs to follow a specific structure so we can properly import it. Otherwise, we can't know which row contains which information, leading to a lot of errors for the newly imported employees.
 
-We strongly suggest that you follow [this structure](https://gist.github.com/djaiss/73f3b19f9d465359ab8750a0368657ff) to get started.
+The structure of the file is [this one](https://gist.githubusercontent.com/djaiss/73f3b19f9d465359ab8750a0368657ff/raw/1368a63b2a67137aadb1e40ce682493e06691c0d/employees.csv). Please grab the exact header to import your employees. The header should contain those exact 3 items, with the same naming:
+
+- `First Name`,
+- `Last Name`,
+- `Email`.
 
 #### Uploading a file
 
