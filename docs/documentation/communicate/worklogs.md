@@ -27,7 +27,7 @@ Once logged, work logs are available for everyone to see on different places. Re
 
 ### On the team's dashboard
 
-When the employee is part of a team, he has access to a tab on his/her dashboard. Inside, there is a summary of every worklog of every team member for everyone to see, per day. The summary of work logs lists the 5 working days of the current week, and the entries for Friday of the previous week.
+When the employee is part of a team, he has access to a tab on his/her dashboard. Inside, there is a summary of every work log of every team member for everyone to see, per day. The summary of work logs lists the 5 working days of the current week, and the entries for Friday of the previous week.
 
 ![image of the work logs](./img/dashboard_worklog_teams.png)
 
@@ -48,3 +48,13 @@ We believe that knowing what we've done 2 years ago doesn't have real value. It 
 ![image of work log on employee page](./img/employee_worklog.png)
 
 Remember: this information is available to everyone in the company, regardless of their roles.
+
+## Deleting a work log
+
+Work logs can be deleted on certain conditions.
+
+Only the following people can delete a work log:
+
+* the employee herself,
+* her manager,
+* someone with the HR or admin role.
