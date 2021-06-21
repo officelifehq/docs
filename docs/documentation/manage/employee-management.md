@@ -377,6 +377,8 @@ Some companies are fully remote. In this context, it makes no sense to let emplo
 
 ![](./img/adminland_manage_work_from_home.png)
 
+Once disabled, employees won't see previous entries if the feature was once enabled.
+
 ## Employee morale
 
 ### Overview
