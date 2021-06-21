@@ -371,6 +371,14 @@ You can also consult the history of work from home by clicking on the View all b
 
 ![](./img/employee_work_from_home-detail.png)
 
+### Toggle the feature in the company
+
+Some companies are fully remote. In this context, it makes no sense to let employees know when they work from home. You can disable this feature entirely in Adminland, by choosing Adminland > Manage work from home and disable the feature, as shown below.
+
+![](./img/adminland_manage_work_from_home.png)
+
+Once disabled, employees won't see previous entries if the feature was once enabled.
+
 ## Employee morale
 
 ### Overview
