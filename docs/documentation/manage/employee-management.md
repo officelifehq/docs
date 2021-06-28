@@ -233,15 +233,33 @@ To manage job positions, go to Adminland > Add/remove job positions. Here you wi
 
 ![](./img/adminland_manage_job_position.png)
 
-To create a job position, you only need a title.
+#### Creating a job position
 
-You can also rename a job position.
+To create a job position, you only need a title.
 
 ::: tip Rules
 * Only HR and administrators can manage job positions.
 * The title of the job position is to 191 characters.
 :::
 
+#### Renaming a job position
+
+You can also rename a job position. When renaming a job position:
+
+* the change is immediately taken into account,
+* employees with this job position will have their profile page automatically updated,
+* the job history on the employee profile pages will be updated as well with the new name.
+
+::: tip Rules
+* Only HR and administrators can rename job positions.
+:::
+
+#### Deleting a job position
+
+You can also delete a job position. Deleting a job position will
+
+* remove this position on every employee who had this position, leaving them with no positions,
+* remove the position from the job history on the employee profile pages.
 
 ## Employee statuses
 
