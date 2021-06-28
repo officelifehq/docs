@@ -2,7 +2,7 @@
 
 ## Overview
 
-Wikis let employees store information in a central place and share knowledge to all the company. Wikis, by nature, are public.
+Wikis let employees store information in a central place and share knowledge to all the company. Wikis, by nature, are public - so everyone can contribute.
 
 ## Anatomy of a wiki
 
