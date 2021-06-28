@@ -211,6 +211,22 @@ To assign a job position to an employee, you need to go to the employee profile 
 
 ![](./img/employee_job_position.png)
 
+::: tip Rules
+* Only someone with the HR or administrator role can assign a job position to someone.
+* An employee can have only one job position at any given time.
+* Everyone in the company can see the job position.
+:::
+
+### Viewing the history of job positions
+
+Everytime an employee changes positions, OfficeLife will record it in the history of job positions.
+
+This information is public inside the company and can be seen on the employee profile page, under the Presentation tab, as shown below.
+
+![](./img/employee_job_position_history.png)
+
+As you can see, we also record the years the position was active.
+
 ### Managing job positions
 
 To manage job positions, go to Adminland > Add/remove job positions. Here you will find all the available job positions in your company.
