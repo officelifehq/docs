@@ -201,7 +201,65 @@ It’s interesting to know when a colleague has a work anniversary. It’s a dat
 
 ### Overview
 
-A position is the job that the employee does. It can be "Software Engineer" or "CEO".
+A position is the job that the employee does. It can be `Software Engineer`, `CEO` or `Sales manager`. OfficeLife provides a simple way of managing positions. There is currently no way to manage hierarchy or seniority in a given position. If your company has the notion of `senior` something, you will to create two positions: one junior, and another called senior.
+
+Job positions are managed in Adminland. Only one job position can be assigned to an employee at any given time.
+
+### Assigning a job position
+
+To assign a job position to an employee, you need to go to the employee profile page, and assign it to the employee.
+
+![](./img/employee_job_position.png)
+
+::: tip Rules
+* Only someone with the HR or administrator role can assign a job position to someone.
+* An employee can have only one job position at any given time.
+* Everyone in the company can see the job position.
+:::
+
+### Viewing the history of job positions
+
+Everytime an employee changes positions, OfficeLife will record it in the history of job positions.
+
+This information is public inside the company and can be seen on the employee profile page, under the Presentation tab, as shown below.
+
+![](./img/employee_job_position_history.png)
+
+As you can see, we also record the years the position was active.
+
+### Managing job positions
+
+To manage job positions, go to Adminland > Add/remove job positions. Here you will find all the available job positions in your company.
+
+![](./img/adminland_manage_job_position.png)
+
+#### Creating a job position
+
+To create a job position, you only need a title.
+
+::: tip Rules
+* Only HR and administrators can manage job positions.
+* The title of the job position is to 191 characters.
+:::
+
+#### Renaming a job position
+
+You can also rename a job position. When renaming a job position:
+
+* the change is immediately taken into account,
+* employees with this job position will have their profile page automatically updated,
+* the job history on the employee profile pages will be updated as well with the new name.
+
+::: tip Rules
+* Only HR and administrators can rename job positions.
+:::
+
+#### Deleting a job position
+
+You can also delete a job position. Deleting a job position will
+
+* remove this position on every employee who had this position, leaving them with no positions,
+* remove the position from the job history on the employee profile pages.
 
 ## Employee statuses
 
@@ -581,3 +639,4 @@ Before deleting a category, you also have the option to move all the expenses li
 ::: tip Rules
 * Only employees with either the HR or administrator role can delete a category.
 :::
+`
