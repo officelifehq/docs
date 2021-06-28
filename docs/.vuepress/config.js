@@ -170,6 +170,7 @@ function getDocumentationSidebar() {
         ['communicate/recent-ships', 'Recent ships'],
         ['communicate/worklogs', 'Work logs'],
         ['communicate/get-to-know-your-colleagues', 'Get to know your colleagues'],
+        ['communicate/wiki', 'Wikis'],
       ]
     },
     {

@@ -67,6 +67,7 @@ OfficeLife is structured around 5 **domains**. Each domain represents a step in 
 * Recent ships
 * Team and company news
 * Get to know your colleagues
+* Wikis
 
 ### Grow
 
