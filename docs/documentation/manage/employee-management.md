@@ -201,7 +201,31 @@ It’s interesting to know when a colleague has a work anniversary. It’s a dat
 
 ### Overview
 
-A position is the job that the employee does. It can be "Software Engineer" or "CEO".
+A position is the job that the employee does. It can be `Software Engineer`, `CEO` or `Sales manager`. OfficeLife provides a simple way of managing positions. There is currently no way to manage hierarchy or seniority in a given position. If your company has the notion of `senior` something, you will to create two positions: one junior, and another called senior.
+
+Job positions are managed in Adminland. Only one job position can be assigned to an employee at any given time.
+
+### Assigning a job position
+
+To assign a job position to an employee, you need to go to the employee profile page, and assign it to the employee.
+
+![](./img/employee_job_position.png)
+
+### Managing job positions
+
+To manage job positions, go to Adminland > Add/remove job positions. Here you will find all the available job positions in your company.
+
+![](./img/adminland_manage_job_position.png)
+
+To create a job position, you only need a title.
+
+You can also rename a job position.
+
+::: tip Rules
+* Only HR and administrators can manage job positions.
+* The title of the job position is to 191 characters.
+:::
+
 
 ## Employee statuses
 
@@ -581,3 +605,4 @@ Before deleting a category, you also have the option to move all the expenses li
 ::: tip Rules
 * Only employees with either the HR or administrator role can delete a category.
 :::
+`
