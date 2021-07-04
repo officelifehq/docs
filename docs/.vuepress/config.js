@@ -34,6 +34,10 @@ module.exports = {
                 text: 'Installation',
                 link: '/documentation/installation'
               },
+              {
+                text: 'Beta',
+                link: '/documentation/officelife-beta'
+              },
             ],
           },
           {
