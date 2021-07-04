@@ -35,8 +35,8 @@ module.exports = {
                 link: '/documentation/installation'
               },
               {
-                text: 'Core concepts',
-                link: '/documentation/core-concepts'
+                text: 'Beta',
+                link: '/documentation/officelife-beta'
               },
             ],
           },
@@ -136,7 +136,6 @@ function getDocumentationSidebar() {
       children: [
         'introduction',
         'installation',
-        'core-concepts',
         'setup-guide',
         'officelife-beta',
       ]
