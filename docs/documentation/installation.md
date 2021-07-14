@@ -34,11 +34,27 @@ OfficeLife is a Laravel-based application and requires the following technologie
 
 ### Deployment
 
-- We recommend [Fortrabbit](https://www.fortrabbit.com/) and [Platform.sh](https://platform.sh/) as PaaS (Platform As A Service) hosts, or [Forge](https://forge.laravel.com) and [Ploi](https://ploi.io/) as IaaS platforms provisioner, to deploy an OfficeLife instance.
+- We recommend [Fortrabbit](https://www.fortrabbit.com/) and [Platform.sh](https://platform.sh/) as <abbr title="Platform As A Service">PaaS</abbr> hosts, or [Forge](https://forge.laravel.com) and [Ploi](https://ploi.io/) as <abbr title="Infrastructure As A Service">IaaS</abbr> platforms provisioner, to deploy an OfficeLife instance.
 
 - You can also use our official [Docker image](https://github.com/officelifehq/docker/pkgs/container/officelife-dev) if you prefer.
 
-- You can also download a bundle asset from our [releases](https://github.com/officelifehq/officelife/releases) containing all dependencies at once. The assets also contains gnupg signature files, signed off with the key `0x213F85B7B1B8F93224FA85B138C2BAD715449E85`. You will find the public key on several [keyservers](https://keyserver.ubuntu.com/pks/lookup?search=0x213F85B7B1B8F93224FA85B138C2BAD715449E85&fingerprint=on&op=index), or [here](pubkey.asc).
+- You can also download a bundle asset from our [releases](https://github.com/officelifehq/officelife/releases) containing all dependencies and build files at once. The assets also contains gnupg signature files, signed off with the key `0x213F85B7B1B8F93224FA85B138C2BAD715449E85`. You will find the public key on several [keyservers](https://keyserver.ubuntu.com/pks/lookup?search=0x213F85B7B1B8F93224FA85B138C2BAD715449E85&fingerprint=on&op=index), or [here](pubkey.asc).
+
+#### Build
+
+If you choose to deploy from the sources, you will have to build the application.
+
+_**Requirements**_
+- composer
+- yarn
+
+_**Steps**_
+1. `composer install`
+2. `yarn install`
+3. `yarn run production`
+
+Then the `vendor`, and the files created in `public` folder must be deployed within the application (the `node_modules` folder can be removed).
+
 
 ### Setup
 
@@ -113,12 +129,13 @@ Define your mailing system to use:
 - `CURRENCY_LAYER_API_KEY` and `CURRENCY_LAYER_PLAN` (`free` or `premium`): API key for getting currency exchange rates, using [CurrencyLayer](https://currencylayer.com/).
 - `UPLOADCARE_PUBLIC_KEY` and `UPLOADCARE_PRIVATE_KEY`: API key for uploading files in [Uploadcare](https://uploadcare.com).
 
-### External login services
+### External login providers
 
-You can add external login services to OfficeLife.
+You can add external login providers to OfficeLife.
 
-- `LOGIN_PROVDERS`: a coma-separated list of enabled login providers. Available providers are: `azure`, `github`, `google`, `linkedin`, `monica`, `saml2`, `slack`, `twitter`.
+- `LOGIN_PROVIDERS`: a coma-separated list of enabled login providers. Available providers are: `azure`, `github`, `google`, `linkedin`, `monica`, `saml2`, `slack`, `twitter`.
 
+An enabled login provider will be showned on the login page. The order of the list is the order these providers will be displayed.
 
 #### Azure Active Directory
 
@@ -136,7 +153,8 @@ Go to you Developer settings and create a new OAuth App. The Authorization callb
 
 #### Google
 
-Go to the Google Cloud console, and setup a new project. Create a new OAuth 2.0 client ID, using `https://yourapp.com/auth/google/callback` as autorized redirect URI.
+Go to the Google Cloud console, and setup a new project. Create a new OAuth 2.0 client ID, using `https://yourapp.com/auth/google/callback` as Autorized redirect URI.
+The required scopes to add are: `.../auth/userinfo.email`, `.../auth/userinfo.profile` and `openid`.
 
 - `GOOGLE_CLIENT_ID`: the OAuth 2.0 client ID
 - `GOOGLE_CLIENT_SECRET`: the OAuth 2.0 client secret
@@ -145,7 +163,7 @@ Go to the Google Cloud console, and setup a new project. Create a new OAuth 2.0 
 
 On the API settings, create a new OAuth client, using `https://yourapp.com/auth/monica/callback` as Redirect URL.
 
-- `MONICA_HOST`: url of your monica host
+- `MONICA_HOST`: url of your monica host if different from default `https://app.monicahq.com`
 - `MONICA_CLIENT_ID`: the client ID
 - `MONICA_CLIENT_SECRET`: the client Secret
 
@@ -167,7 +185,7 @@ Once you have setup you saml2 application, you can either
 
 #### Slack
 
-On slack API, create a new app, and setup OAuth & Permissions, using `https://yourapp.com/auth/slack/callback` as Redirect URLS, and adding `identity` User Token Scopes.
+On slack API, create a new app, and setup OAuth & Permissions, using `https://yourapp.com/auth/slack/callback` as Redirect URLS, and adding these User Token Scopes: `identity.avatar`, `identity.basic`, `identity.email`, `identity.team`.
 
 - `SLACK_CLIENT_ID`: the client ID
 - `SLACK_CLIENT_SECRET`: the client Secret
@@ -176,8 +194,8 @@ On slack API, create a new app, and setup OAuth & Permissions, using `https://yo
 
 On twitter developer portal, create a new app or project. Activate the 3-legged OAuth authentication, and set `https://yourapp.com/auth/twitter/callback` as Callback url.
 
-`TWITTER_CLIENT_ID`
-`TWITTER_CLIENT_SECRET`
+- `TWITTER_CLIENT_ID`: the client ID
+- `TWITTER_CLIENT_SECRET`: the client Secret
 
 
 
