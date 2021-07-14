@@ -38,7 +38,7 @@ OfficeLife is a Laravel-based application and requires the following technologie
 
 - You can also use our official [Docker image](https://github.com/officelifehq/docker/pkgs/container/officelife-dev) if you prefer.
 
-- You can also download a bundle asset from our [releases](https://github.com/officelifehq/officelife/releases) containing all dependencies at once. The assets also contains gnupg signature files, signed off with the key `0x213F85B7B1B8F93224FA85B138C2BAD715449E85`. You will find the public key on several [keyservers](http://keyserver.ubuntu.com/pks/lookup?search=0x213F85B7B1B8F93224FA85B138C2BAD715449E85&fingerprint=on&op=index), or [here](pubkey.asc).
+- You can also download a bundle asset from our [releases](https://github.com/officelifehq/officelife/releases) containing all dependencies at once. The assets also contains gnupg signature files, signed off with the key `0x213F85B7B1B8F93224FA85B138C2BAD715449E85`. You will find the public key on several [keyservers](https://keyserver.ubuntu.com/pks/lookup?search=0x213F85B7B1B8F93224FA85B138C2BAD715449E85&fingerprint=on&op=index), or [here](pubkey.asc).
 
 ### Setup
 
