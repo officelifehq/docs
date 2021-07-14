@@ -6,5 +6,5 @@ This documentation is aimed towards developers working with (or contributing to)
 
 The documentation is split into two sections:
 
-* the [documentation for developers]('/contribution') who want to contribute to the sofware. It contains general guidelines, help on common questions and the best practices we want to enforce.
-* the [documentation for core contributors]('/') who maintain the project on a daily basis. It contains guidelines on how to maintain our servers, deployment processes and team structure.
+* the [documentation for developers](developers/guidelines.md) who want to contribute to the sofware. It contains general guidelines, help on common questions and the best practices we want to enforce.
+* the [documentation for core contributors](core-contributors/installation.md) who maintain the project on a daily basis. It contains guidelines on how to maintain our servers, deployment processes and team structure.
