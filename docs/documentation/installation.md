@@ -38,7 +38,7 @@ OfficeLife is a Laravel-based application and requires the following technologie
 
 - You can also use our official [Docker image](https://github.com/officelifehq/docker/pkgs/container/officelife-dev) if you prefer.
 
-- You can also download a bundle asset from our [releases](https://github.com/officelifehq/officelife/releases) containing all dependencies at once. The assets also contains gnupg signature files, signed off with the key `0x213F85B7B1B8F93224FA85B138C2BAD715449E85`. You will find the public key on several [keyserver](http://keyserver.ubuntu.com/pks/lookup?search=0x213F85B7B1B8F93224FA85B138C2BAD715449E85&fingerprint=on&op=index), or [here](pubkey.asc).
+- You can also download a bundle asset from our [releases](https://github.com/officelifehq/officelife/releases) containing all dependencies at once. The assets also contains gnupg signature files, signed off with the key `0x213F85B7B1B8F93224FA85B138C2BAD715449E85`. You will find the public key on several [keyservers](http://keyserver.ubuntu.com/pks/lookup?search=0x213F85B7B1B8F93224FA85B138C2BAD715449E85&fingerprint=on&op=index), or [here](pubkey.asc).
 
 ### Setup
 
@@ -57,14 +57,14 @@ You may need to configure some permissions. Directories within the `storage` and
 ## Configuration
 
 All configuration are set through the `.env` file or within environment variables.
-The `.env.example` file contains a list of common configuration you might want to use. These are the principal ones:
+The `.env.example` file contains a list of common configuration you might want to use. These are the main ones:
 
 
 ### Global config
 
 - `APP_ENV`: set to `production` for a production installation
 - `APP_KEY`: this is provisionned by the `php artisan key:generate` command, or you can manually generate it using this command: `echo -n 'base64:'; openssl rand -base64 32`
-- `APP_DEBUG`: this should be set to `false` for a production installation
+- `APP_DEBUG`: this should be set to `false` for a production installation. If set to `true`, this will display all debug traces when an error occurs, so you should never, ever set it to `true` for production use.
 - `APP_URL`: url of the application, used to format the email dispatch
 
 ### Database config
@@ -183,7 +183,7 @@ On twitter developer portal, create a new app or project. Activate the 3-legged 
 
 ## Cron and queue
 
-OfficeLife is a Laravel-based application, and requires a cron to run, and eventually a queue worker.
+OfficeLife is a Laravel-based application, and requires a cron to run, and possibly a queue worker if you can.
 
 ### Cron
 The cron is a job that run at regular intervals, ideally every minutes.
@@ -195,7 +195,7 @@ See [Laravel documentation](https://laravel.com/docs/8.x/scheduling#running-the-
 
 ### Queue
 
-Setup a queue is a very good way to improve performances on OfficeLife.
+Setting up a queue is a very good way to improve performances on OfficeLife.
 
 There are 2 steps to follow:
 - Setup a [queue worker](https://laravel.com/docs/8.x/queues#running-the-queue-worker), using a specific docker container, or tools like supervisor. The command to run is:
