@@ -53,7 +53,7 @@ _**Steps**_
 2. `yarn install`
 3. `yarn run production`
 
-Then the `vendor`, and the files created in `public` folder must be deployed within the application (the `node_modules` folder can be removed).
+Then the `vendor` directory as well as the files created in `public` folder must be deployed within the application (the `node_modules` folder can be removed).
 
 
 ### Setup
@@ -135,7 +135,7 @@ You can add external login providers to OfficeLife.
 
 - `LOGIN_PROVIDERS`: a coma-separated list of enabled login providers. Available providers are: `azure`, `github`, `google`, `linkedin`, `monica`, `saml2`, `slack`, `twitter`.
 
-An enabled login provider will be showned on the login page. The order of the list is the order these providers will be displayed.
+An enabled login provider will be shown on the login page. The order of the list is the order these providers will be displayed.
 
 #### Azure Active Directory
 
