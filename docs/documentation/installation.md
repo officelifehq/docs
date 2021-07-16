@@ -100,7 +100,7 @@ The `.env.example` file contains a list of common configuration you might want t
    - For `redis` see section below.
 
 ### Queue connection
-See [Cron and queue](#Cron-and-queue) section.
+See [Cron and queue](#cron-and-queue) section.
 
 - `QUEUE_CONNECTION`: Setting a queue worker is good way to speed up your application. Set it to `database` for general usage. Or you can use `redis`, `beanstalkd`, or `sqs`. See [`queue.php`](https://github.com/officelifehq/officelife/blob/main/config/queue.php) for available drivers. Be aware that you will need to setup a worker for the queue to function.
    - For `redis` see section below.
@@ -221,7 +221,7 @@ There are 2 steps to follow:
     php artisan queue:work --sleep=1 --timeout=0 --tries=3 --queue=default,low
     ```
 
-- Defines `QUEUE_CONNECTION` variable to use a non-sync queue. See [Queue connection](#Queue-connection) section.
+- Defines `QUEUE_CONNECTION` variable to use a non-sync queue. See [Queue connection](#queue-connection) section.
 
 
 
