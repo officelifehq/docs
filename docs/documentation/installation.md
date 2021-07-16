@@ -4,7 +4,7 @@
 
 OfficeLife comes in two flavors:
 
-* as a SAAS, meaning that you need to pay a monthly fee to access the service, on an instance that we host ourselves. We take care of everything, from maintenance to upgrading the instance,
+* as a SaaS, meaning that you need to pay a monthly fee to access the service, on an instance that we host ourselves. We take care of everything, from maintenance to upgrading the instance,
 
 * as a software that you can download and install yourself. You will have to maintain this instance yourself. However it’s free, so `¯\_(ツ)_/¯`
 
@@ -58,10 +58,10 @@ Then the `vendor` directory as well as the files created in `public` folder must
 
 ### Setup
 
-You should configure your web server's document / web root to be the `public` directory. The `index.php` in this directory serves as the front controller for all HTTP requests entering your application.
+You should configure your web server’s document / web root to be the `public` directory. The `index.php` in this directory serves as the front controller for all HTTP requests entering your application.
 
 Once installed, run this command to setup everything:
-```
+```sh
 php artisan setup
 ```
 
@@ -84,6 +84,7 @@ The `.env.example` file contains a list of common configuration you might want t
 - `APP_URL`: url of the application, used to format the email dispatch
 
 ### Database config
+
 - `DB_CONNECTION`: use `mysql` (mysql or mariadb) or `pgsql` (postgreSQL)
 - `DB_HOST`: ip address of the database host, or the container name in a docker environment
 - `DB_PORT`: database port
@@ -100,17 +101,22 @@ The `.env.example` file contains a list of common configuration you might want t
    - For `redis` see section below.
 
 ### Queue connection
-See [Cron and queue](#cron-and-queue) section.
 
-- `QUEUE_CONNECTION`: Setting a queue worker is good way to speed up your application. Set it to `database` for general usage. Or you can use `redis`, `beanstalkd`, or `sqs`. See [`queue.php`](https://github.com/officelifehq/officelife/blob/main/config/queue.php) for available drivers. Be aware that you will need to setup a worker for the queue to function.
+::: warning
+Setting up a non-sync queue requires you to define a queue worker. See [Cron and queue](#cron-and-queue) section.
+:::
+
+- `QUEUE_CONNECTION`: Setting a queue worker is good way to speed up your application. Set it to `database` for general usage. Or you can use `redis`, `beanstalkd`, or `sqs`. See [`queue.php`](https://github.com/officelifehq/officelife/blob/main/config/queue.php) for available drivers.
    - For `redis` see section below.
 
 ### Redis
-If you use redis for cache or session, you'll have to set these variable too:
+
+If you use redis for cache, session or queue, you’ll have to set these variables too:
 - `REDIS_HOST`: ip address of the redis instance, or docker container name
 - `REDIS_PASSWORD` and `REDIS_PORT`
 
 ### Mailing
+
 Define your mailing system to use:
 
 - `MAIL_MAILER`: the mailer config to use: `smtp`, `sendmail`, `mailgun`, `ses`, or `postmark`
@@ -198,15 +204,16 @@ On twitter developer portal, create a new app or project. Activate the 3-legged 
 - `TWITTER_CLIENT_SECRET`: the client Secret
 
 
-
 ## Cron and queue
 
 OfficeLife is a Laravel-based application, and requires a cron to run, and possibly a queue worker if you can.
 
 ### Cron
+
 The cron is a job that run at regular intervals, ideally every minutes.
+
 Setup a cron that run this command:
-```
+```sh
 php artisan schedule:run
 ```
 See [Laravel documentation](https://laravel.com/docs/8.x/scheduling#running-the-scheduler)
@@ -216,13 +223,12 @@ See [Laravel documentation](https://laravel.com/docs/8.x/scheduling#running-the-
 Setting up a queue is a very good way to improve performances on OfficeLife.
 
 There are 2 steps to follow:
-- Setup a [queue worker](https://laravel.com/docs/8.x/queues#running-the-queue-worker), using a specific docker container, or tools like supervisor. The command to run is:
-    ```
+1. Setup a [queue worker](https://laravel.com/docs/8.x/queues#running-the-queue-worker), using a specific docker container, or tools like supervisor. The command to run is:
+    ```sh
     php artisan queue:work --sleep=1 --timeout=0 --tries=3 --queue=default,low
     ```
 
-- Defines `QUEUE_CONNECTION` variable to use a non-sync queue. See [Queue connection](#queue-connection) section.
-
+2. Defines `QUEUE_CONNECTION` variable to use a non-sync queue. See [Queue connection](#queue-connection) section.
 
 
 ## Setup OfficeLife for development purposes
@@ -256,7 +262,7 @@ We provide a way to try out OfficeLife with semi-real data that will give you a 
 
 We provide a custom command that needs to be executed in the terminal to achieve this.
 
-``` bash
+```sh
 php artisan setup:dummyaccount
 ```
 
