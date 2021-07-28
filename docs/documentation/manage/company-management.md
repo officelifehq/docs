@@ -28,11 +28,11 @@ There are several ways for employees to be invited to your account:
 - [Add an employee manually](/documentation/manage/employee-management.html#add-a-new-employee),
 - [Import employees](/documentation/manage/employee-management.html#importing-employees),
 
-But there is another way! It's possible to give a code to your employees, and your employees can use this code themselves so they can join your company once they've created an account.
+But there is another way! It’s possible to give a code to your employees, and your employees can use this code themselves so they can join your company once they’ve created an account.
 
 ![join a company](./img/adminland_general_join_company.png)
 
-It's simple and convenient.
+It’s simple and convenient.
 
 The code is unique per company, and hard enough to guess so your privacy is protected. We might add additional checks in the future to prevent abusing this system.
 
@@ -73,7 +73,7 @@ To upload or change the logo of the company, go to Adminland > General, and simp
 
 ### Defining the company’s founded date
 
-The company's date of creation is displayed on the Company tab in your account. It's a nice detail so everyone knows how resilient the company is (or young, in that case). You can change this date in Adminland.
+The company's date of creation is displayed on the Company tab in your account. It’s a nice detail so everyone knows how resilient the company is (or young, in that case). You can change this date in Adminland.
 
 Go to Adminland section, under general, and indicate when the company has been created.
 
@@ -82,15 +82,31 @@ Go to Adminland section, under general, and indicate when the company has been c
 * You only have to indicate the year the company has been founded.
 :::
 
+## Account billing
+
+OfficeLife’s business model is based on the number of active employees in your account for any given month.
+
+Every night at midnight, OfficeLife will check the number of active employees in your account (ie the number of employees who are not locked). It will store this number in your account, along with the name and email address of each active employee.
+
+At the end of each month, OfficeLife will check the highest number of active employees in your account that happened during the month, and will consider this value to be the basis of your billing.
+
+In Adminland, you can find what happened during each month and see why we decided to bill you this amount based on the number of active employees. Below is an example of the invoice section.
+
+![](./img/adminland_billing_index.png)
+
+Then, if you click on a given month, you will find the details of the billing.
+
+![](./img/adminland_billing_show.png)
+
 ## Account cancellation
 
-You are in complete control of your data. You can cancel the company's account at anytime.
+You are in complete control of your data. You can cancel the company’s account at anytime.
 
-Keep in mind, though, that cancelling the company's account means
+Keep in mind, though, that cancelling the company’s account means
 
 * all the data will be immediately deleted from the servers. Immediately.
-* data is kept in the backups for 60 days. After 60 days, the backups will be deleted. We won't be able to restore your data from the backup, though.
+* data is kept in the backups for 60 days. After 60 days, the backups will be deleted. We won’t be able to restore your data from the backup, though.
 
 ::: tip Rules
-* Only someone with the administrator role can cancel the company's account.
+* Only someone with the administrator role can cancel the company’s account.
 :::

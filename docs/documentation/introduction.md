@@ -121,11 +121,13 @@ OfficeLife comes in two flavors: open source and hosted.
 
 While the open-source version is free, the hosted version is supported by subscriptions. You pay a fair amount of money each month, and in exchange, you have access to your own OfficeLife’s account.
 
-Also, we don't have any hidden fees. You can upgrade or downgrade at any time.
+Also, we don't have any hidden fees, or minimum monthly fees, or installation fees. You can upgrade or downgrade at any time.
+
+We charge a fixed amount per active employee per month. An active employee is an employee who is in your account, and who is not locked.
 
 ### Isn’t this price too expensive for my tiny company?
 
-Perhaps. And I’m sorry about this. However, if the price is too expensive for you, which we completely understand, you can still download the open-source version on Github and install it on your server (on Linode, Digital Ocean or Heroku). It’s cheaper, safer in terms of privacy, and you'll deal with the maintenance yourself 😀
+Perhaps. And I’m sorry about this. However, if the price is too expensive for you, which we completely understand, you can still download the open-source version on Github and install it on your server (on Linode, Digital Ocean or Heroku). It’s cheaper, safer in terms of privacy, but you’ll deal with the maintenance yourself 😀
 
 ### Why is this not more expensive?
 
