@@ -35,9 +35,11 @@ A recruiting template is composed of stages, that we call *recruiting stages*.
 
 OfficeLife lets you define templates of recruiting stages, so when you create a job opening, you can select the appropriate recruiting stages according to this template.
 
+As you can see above, each template is composed of different stages.
+
 ![Recruiting stage templates](./img/adminland_recruitment_index.png)
 
-As you can see above, each template is composed of different stages. If you click on a template, you can see the details of the template, as shown below.
+If you click on a template, you can see the details of the template, as shown below.
 
 ![Recruiting stages](./img/adminland_recruitment_show.png)
 
