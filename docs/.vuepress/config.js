@@ -140,7 +140,6 @@ function getDocumentationSidebar() {
             children: [
                 'introduction',
                 'installation',
-                'core-concepts',
                 'setup-guide',
                 'officelife-beta',
             ]
