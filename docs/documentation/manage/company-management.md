@@ -71,7 +71,7 @@ To upload or change the logo of the company, go to Adminland > General, and simp
 * The logo will be seen by anyone in the company.
 :::
 
-### Defining the company’s founded date
+## Defining the company’s founded date
 
 The company's date of creation is displayed on the Company tab in your account. It’s a nice detail so everyone knows how resilient the company is (or young, in that case). You can change this date in Adminland.
 
@@ -80,6 +80,19 @@ Go to Adminland section, under general, and indicate when the company has been c
 ::: tip Rules
 * Only someone with the administrator role can change this date.
 * You only have to indicate the year the company has been founded.
+:::
+
+## Defining the company’s main location
+
+The main location of the company is displayed on the Jobs public page, accessible from Internet, from anyone to see. The location is a free text field, and we advise to put the city and the country in this field.
+
+To indicate the company's location, go to Adminland section, under general, and search for the Company location section.
+
+![](./img/adminland_general_company_location.png)
+
+::: tip Rules
+* Only someone with the administrator role can change this date.
+* The location field is limited to 191 characters.
 :::
 
 ## Account billing
