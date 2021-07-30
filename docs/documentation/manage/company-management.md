@@ -86,7 +86,7 @@ Go to Adminland section, under general, and indicate when the company has been c
 
 The main location of the company is displayed on the Jobs public page, accessible from Internet, from anyone to see. The location is a free text field, and we advise to put the city and the country in this field.
 
-To indicate the company's location, go to Adminland section, under general, and search for the Company location section.
+To indicate the company's location, go to Adminland section, under General, and search for the Company location section.
 
 ![](./img/adminland_general_company_location.png)
 
