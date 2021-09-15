@@ -74,7 +74,7 @@ By default, the question is anonymous, so it's really up to the employee to reve
 * Questions that were submitted, can not be deleted, by anyone.
 :::
 
-## During a AMA session
+## During a session
 
 An Ask Me Anything session is all about people asking questions. So when the session occurs, remotely or in person, the person in charge of answering questions has to have a list of all the questions he needs to answer.
 
