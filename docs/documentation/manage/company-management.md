@@ -91,7 +91,7 @@ To indicate the company's location, go to Adminland section, under General, and 
 ![](./img/adminland_general_company_location.png)
 
 ::: tip Rules
-* Only someone with the administrator role can change this date.
+* Only someone with the administrator role can change the location.
 * The location field is limited to 191 characters.
 :::
 
