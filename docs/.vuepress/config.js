@@ -181,6 +181,7 @@ function getDocumentationSidebar() {
                 ['communicate/worklogs', 'Work logs'],
                 ['communicate/get-to-know-your-colleagues', 'Get to know your colleagues'],
                 ['communicate/wiki', 'Wikis'],
+                ['communicate/ask-me-anything', 'Ask Me Anything'],
             ]
         },
         {
