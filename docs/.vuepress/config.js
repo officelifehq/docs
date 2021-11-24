@@ -177,7 +177,7 @@ function getDocumentationSidebar() {
             title: '🛰 Communicate',
             collapsable: false,
             children: [
-                ['communicate/recent-ships', 'Recent ships'],
+                ['communicate/recent-ships', 'Accomplishments'],
                 ['communicate/worklogs', 'Work logs'],
                 ['communicate/get-to-know-your-colleagues', 'Get to know your colleagues'],
                 ['communicate/wiki', 'Wikis'],
@@ -192,6 +192,7 @@ function getDocumentationSidebar() {
                 ['grow/one-on-ones', '1-on-1’s'],
                 ['grow/rate-your-manager', 'Rate your manager'],
                 ['grow/skills', 'Skills'],
+                ['grow/discipline', 'Discipline'],
             ]
         }
     ]

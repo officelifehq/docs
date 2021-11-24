@@ -44,39 +44,40 @@ OfficeLife is structured around 5 **domains**. Each domain represents a step in 
 
 ### Recruit
 
-* Applicant tracking system
-* Onboarding / offboarding
+* [Applicant tracking system](/documentation/recruit/applicant-tracking-system)
+* Onboarding / offboarding (soon)
 
 ### Manage
 
-* Employee management
-* Team management
-* Company management
+* [Employee management](/documentation/manage/employee-management.html#employee-morale)
+* [Team management](/documentation/manage/team-management)
+* [Company management](/documentation/manage/company-management)
 
 ### Operate
 
-* Time tracking
-* PTOs (ie holidays and time offs)
-* Expenses management
-* Hardware and software licenses
-* Project management
+* [Time tracking](/documentation/operate/time-tracking)
+* PTOs (ie holidays and time offs) (soon)
+* [Expenses management](/documentation/operate/expenses)
+* [Hardware](/documentation/operate/hardware) and [software licenses](/documentation/operate/software)
+* [Project management](/documentation/operate/project-management)
 
 ### Communicate
 
-* Work logs
-* Recent ships
-* Team and company news
-* Get to know your colleagues
-* Wikis
+* [Work logs](/documentation/communicate/worklogs)
+* [Recent ships](/documentation/communicate/recent-ships)
+* [Team news](/documentation/manage/team-management.html#team-news) and company news
+* [Get to know your colleagues](/documentation/communicate/get-to-know-your-colleagues)
+* [Wikis](/documentation/communicate/wiki)
 
 ### Grow
 
-* Employee and team morale
-* One on Ones
-* Rate your manager
-* Skills
+* [Employee and team morale](/documentation/manage/employee-management.html#employee-morale)
+* [One on Ones](/documentation/grow/one-on-ones)
+* [Rate your manager](/documentation/grow/rate-your-manager)
+* [Skills](/documentation/grow/skills)
 * Objectives Key Results (OKR)
 * [e-Coffees](/documentation/grow/e-coffee)
+* [Discipline cases](/documentation/grow/discipline)
 
 ## How is OfficeLife different
 
