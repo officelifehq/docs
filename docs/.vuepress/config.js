@@ -192,6 +192,7 @@ function getDocumentationSidebar() {
                 ['grow/one-on-ones', '1-on-1’s'],
                 ['grow/rate-your-manager', 'Rate your manager'],
                 ['grow/skills', 'Skills'],
+                ['grow/discipline', 'Discipline'],
             ]
         }
     ]
