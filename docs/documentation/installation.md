@@ -50,8 +50,10 @@ _**Requirements**_
 
 _**Steps**_
 1. `composer install`
-2. `yarn install`
-3. `yarn run production`
+2. `cp .env.example .env`
+3. `php artisan key:generate`
+4. `yarn install`
+5. `yarn run production`
 
 Then the `vendor` directory as well as the files created in `public` folder must be deployed within the application (the `node_modules` folder can be removed).
 
